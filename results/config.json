@@ -1,0 +1,11 @@
+{
+  "data_dir": "data_split",
+  "batch_size": 16,
+  "image_size": 224,
+  "num_epochs": 30,
+  "learning_rate": 0.001,
+  "num_classes": 4,
+  "device": "cuda",
+  "save_dir": "results",
+  "early_stopping_patience": 7
+}

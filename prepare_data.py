@@ -2,10 +2,10 @@
 organizes charter images into train/validation/test splits
 with proper directory structure for PyTorch training
 
-expected input structure:
+example expected input structure:
 images/
-  papal/           (120 images)
-  non_papal/       (120 images)
+  papal/
+  non_papal/
 
 output structure:
 data/
@@ -28,14 +28,14 @@ from collections import defaultdict
 
 
 def prepare_data(source_dir='images', 
-                 output_dir='data',
+                 output_dir='data-split',
                  train_ratio=0.70,
                  val_ratio=0.15,
                  test_ratio=0.15,
                  seed=42):
     """
     args:
-        source_dir: dir containing papal/ and non_papal/ subdirectories
+        source_dir: dir containing class subdirectories
         output_dir: output directory for data
         train_ratio: proportion training set
         val_ratio: proportion validation set
@@ -66,7 +66,7 @@ def prepare_data(source_dir='images',
     
     # create output dirs
     splits = ['train', 'val', 'test']
-    classes = ['papal', 'non_papal']
+    classes = ['papal', 'non_papal', 'papal_canapis', 'non_papal_solemn']
     
     for split in splits:
         for class_name in classes:
@@ -148,8 +148,8 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description='Prepare papal charter dataset')
     parser.add_argument('--source', type=str, default='images',
-                       help='Source directory containing papal/ and non_papal/ folders')
-    parser.add_argument('--output', type=str, default='data',
+                       help='Source directory containing class folders')
+    parser.add_argument('--output', type=str, default='data_split',
                        help='Output directory for organized data')
     parser.add_argument('--train', type=float, default=0.70,
                        help='Training set ratio (default: 0.70)')

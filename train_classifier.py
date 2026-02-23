@@ -41,7 +41,7 @@ class CharterDataset(Dataset):
     def __init__(self, root_dir, transform=None):
         self.root_dir = Path(root_dir)
         self.transform = transform
-        self.classes = ['non_papal', 'papal']
+        self.classes = ['non_papal', 'papal', 'papal_canapis', 'non_papal_solemn']
         self.class_to_idx = {cls: idx for idx, cls in enumerate(self.classes)}
         
         # Collect all image paths
@@ -105,7 +105,7 @@ def get_transforms(image_size=224, augment=True):
     return train_transform, val_transform
 
 
-def create_model(num_classes=2, pretrained=True):
+def create_model(num_classes=4, pretrained=True):
     """Create EfficientNet-B0 model with custom classifier"""
     
     model = models.efficientnet_b0(pretrained=pretrained)
@@ -261,12 +261,12 @@ def plot_roc_curve(y_true, y_probs, save_path='roc_curve.png'):
 def main():
     # Configuration
     config = {
-        'data_dir': 'data',
+        'data_dir': 'data_split',
         'batch_size': 16,
         'image_size': 224,
         'num_epochs': 30,
         'learning_rate': 0.001,
-        'num_classes': 2,
+        'num_classes': 4,
         'device': 'cuda' if torch.cuda.is_available() else 'cpu',
         'save_dir': 'results',
         'early_stopping_patience': 7
@@ -436,18 +436,19 @@ def main():
     print(f"Test Accuracy: {test_acc:.2f}%")
     
     # Classification report
+    classes = ['Non-Papal', 'Papal', 'Papal Canapis', 'Non-Papal Solemn']
     print("\nClassification Report:")
     print(classification_report(test_labels, test_preds, 
-                               target_names=['Non-Papal', 'Papal']))
+                               target_names=classes))
     
     # Plot confusion matrix
     plot_confusion_matrix(test_labels, test_preds, 
-                         classes=['Non-Papal', 'Papal'],
+                         classes=classes,
                          save_path=os.path.join(config['save_dir'], 'confusion_matrix.png'))
     
     # Plot ROC curve
-    plot_roc_curve(test_labels, test_probs,
-                  save_path=os.path.join(config['save_dir'], 'roc_curve.png'))
+    #plot_roc_curve(test_labels, test_probs,
+    #              save_path=os.path.join(config['save_dir'], 'roc_curve.png'))
     
     # Save final metrics
     final_metrics = {
@@ -455,7 +456,7 @@ def main():
         'test_loss': test_loss,
         'test_acc': test_acc,
         'classification_report': classification_report(test_labels, test_preds, 
-                                                       target_names=['Non-Papal', 'Papal'],
+                                                       target_names=classes,
                                                        output_dict=True)
     }
     

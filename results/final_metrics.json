@@ -1,0 +1,32 @@
+{
+  "best_val_acc": 94.5945945945946,
+  "test_loss": 0.1791402647892634,
+  "test_acc": 92.10526315789474,
+  "classification_report": {
+    "Non-Papal": {
+      "precision": 0.9411764705882353,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.9142857142857143,
+      "support": 18.0
+    },
+    "Papal": {
+      "precision": 0.9047619047619048,
+      "recall": 0.95,
+      "f1-score": 0.926829268292683,
+      "support": 20.0
+    },
+    "accuracy": 0.9210526315789473,
+    "macro avg": {
+      "precision": 0.9229691876750701,
+      "recall": 0.9194444444444444,
+      "f1-score": 0.9205574912891986,
+      "support": 38.0
+    },
+    "weighted avg": {
+      "precision": 0.9220109096270088,
+      "recall": 0.9210526315789473,
+      "f1-score": 0.9208875848156978,
+      "support": 38.0
+    }
+  }
+}

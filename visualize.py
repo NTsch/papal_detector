@@ -5,6 +5,16 @@ This script provides tools to:
 1. Visualize model predictions with GradCAM
 2. Analyze misclassifications
 3. Compare predictions across Austrian vs French charters
+
+Usage:
+    # Visualize a single prediction with attention map
+    python visualize.py --mode single --image path/to/charter.jpg
+    
+    # Analyze test set performance
+    python visualize.py --mode analyze
+    
+    # Generate GradCAM visualizations for misclassifications
+    python visualize.py --mode misclassifications
 """
 
 import torch
@@ -16,6 +26,11 @@ import matplotlib.pyplot as plt
 import cv2
 from pathlib import Path
 import json
+import sys
+
+# Import CharterClassifier from predict.py
+sys.path.insert(0, str(Path(__file__).parent))
+from predict import CharterClassifier
 
 
 class GradCAM:
@@ -133,8 +148,8 @@ def visualize_prediction(classifier, image_path, save_path=None):
         'prediction': classifier.classes[predicted.item()],
         'confidence': confidence.item(),
         'probabilities': {
-            'Non-Papal': probs[0, 0].item(),
-            'Papal': probs[0, 1].item()
+            classifier.classes[i]: probs[0, i].item() 
+            for i in range(len(classifier.classes))
         }
     }
 
@@ -290,6 +305,8 @@ def main():
                        help='Visualization mode')
     parser.add_argument('--image', type=str,
                        help='Image path (for single mode)')
+    parser.add_argument('--output', type=str,
+                       help='Output path to save visualization (for single mode)')
     parser.add_argument('--model', type=str, default='results/best_model.pth',
                        help='Path to trained model')
     parser.add_argument('--results-dir', type=str, default='results',
@@ -303,9 +320,16 @@ def main():
         if not args.image:
             parser.error("--image required for single mode")
         
-        from predict import CharterClassifier
         classifier = CharterClassifier(model_path=args.model)
-        visualize_prediction(classifier, args.image)
+        result = visualize_prediction(classifier, args.image, save_path=args.output)
+        
+        # Print results to console
+        print(f"\nImage: {result['image']}")
+        print(f"Prediction: {result['prediction']}")
+        print(f"Confidence: {result['confidence']:.3f}")
+        print("\nProbabilities:")
+        for class_name, prob in result['probabilities'].items():
+            print(f"  {class_name}: {prob:.3f}")
     
     elif args.mode == 'analyze':
         analyze_test_results(args.results_dir, args.test_dir)

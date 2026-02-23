@@ -1,3 +1,7 @@
 claude/
 .venv/
 images/
+__pycache__/
+test_against_klosterbestaende/
+data_split/
+past_runs/
