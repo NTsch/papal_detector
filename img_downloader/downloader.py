@@ -16,6 +16,7 @@ FAILED_FILE = "failed_downloads.txt"
 MAX_WORKERS = 32
 TIMEOUT = 15
 RETRY_FAILED_PASS = True
+MAX_IMAGES = 10000   # Set to None to download all
 # ==================
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -94,6 +95,11 @@ def run_download(urls, pass_name="Main pass"):
 # Load URLs
 with open(INPUT_FILE, "r") as f:
     urls = [line.strip() for line in f if line.strip()]
+
+# Apply optional limit
+if MAX_IMAGES is not None:
+    urls = urls[:MAX_IMAGES]
+    print(f"Limiting download to first {len(urls)} images.")
 
 # MAIN PASS
 run_download(urls, "Main pass")
