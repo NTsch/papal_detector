@@ -1,32 +1,44 @@
 {
-  "best_val_acc": 94.5945945945946,
-  "test_loss": 0.1791402647892634,
-  "test_acc": 92.10526315789474,
+  "best_val_acc": 97.6923076923077,
+  "test_loss": 0.12334535539978081,
+  "test_acc": 94.92753623188406,
   "classification_report": {
     "Non-Papal": {
-      "precision": 0.9411764705882353,
-      "recall": 0.8888888888888888,
-      "f1-score": 0.9142857142857143,
-      "support": 18.0
+      "precision": 1.0,
+      "recall": 0.9782608695652174,
+      "f1-score": 0.989010989010989,
+      "support": 46.0
     },
     "Papal": {
-      "precision": 0.9047619047619048,
-      "recall": 0.95,
-      "f1-score": 0.926829268292683,
-      "support": 20.0
+      "precision": 0.9354838709677419,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9508196721311475,
+      "support": 60.0
     },
-    "accuracy": 0.9210526315789473,
+    "Papal Canapis": {
+      "precision": 1.0,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.9032258064516129,
+      "support": 17.0
+    },
+    "Non-Papal Solemn": {
+      "precision": 0.8235294117647058,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.875,
+      "support": 15.0
+    },
+    "accuracy": 0.9492753623188406,
     "macro avg": {
-      "precision": 0.9229691876750701,
-      "recall": 0.9194444444444444,
-      "f1-score": 0.9205574912891986,
-      "support": 38.0
+      "precision": 0.9397533206831119,
+      "recall": 0.9254475703324809,
+      "f1-score": 0.9295141168984373,
+      "support": 138.0
     },
     "weighted avg": {
-      "precision": 0.9220109096270088,
-      "recall": 0.9210526315789473,
-      "f1-score": 0.9208875848156978,
-      "support": 38.0
+      "precision": 0.9527679234386601,
+      "recall": 0.9492753623188406,
+      "f1-score": 0.9494458299424041,
+      "support": 138.0
     }
   }
 }

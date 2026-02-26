@@ -41,7 +41,7 @@ class CharterDataset(Dataset):
     def __init__(self, root_dir, transform=None):
         self.root_dir = Path(root_dir)
         self.transform = transform
-        self.classes = ['non_papal', 'papal', 'papal_canapis', 'non_papal_solemn']
+        self.classes = ['non_papal', 'papal', 'papal_simple', 'non_papal_solemn']
         self.class_to_idx = {cls: idx for idx, cls in enumerate(self.classes)}
         
         # Collect all image paths

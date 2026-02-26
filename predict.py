@@ -3,6 +3,7 @@ Papal Charter Classification - Inference Script
 
 Use this script to classify charter images using a trained model.
 Supports both binary (2-class) and multi-class models.
+Results can be exported in JSON or XML format.
 
 Usage:
     # Classify a single image
@@ -13,6 +14,9 @@ Usage:
     
     # Classify and save results to JSON
     python predict.py --directory path/to/charters/ --output results.json
+    
+    # Classify and save results to XML
+    python predict.py --directory path/to/charters/ --output results.xml --output-format xml
     
     # For BINARY models (2 classes):
     # Copy papal images to a separate directory
@@ -28,8 +32,9 @@ Usage:
     # Copy multiple specific classes
     python predict.py --directory path/to/charters/ --copy-to papal_all/ --copy-classes "Simple Papal" "Solemn Papal"
     
-    # Copy only high-confidence predictions (e.g., >= 0.8)
-    python predict.py --directory path/to/charters/ --copy-to papal_charters/ --min-confidence 0.8
+    # Copy only high-confidence predictions with XML output
+    python predict.py --directory path/to/charters/ --copy-to papal_charters/ --min-confidence 0.8 \
+        --output predictions.xml --output-format xml
     
     # Override default class names (must match model's number of classes)
     python predict.py --directory path/to/charters/ --classes "Other" "Simple Papal" "Solemn Non-Papal" "Solemn Papal"
@@ -43,6 +48,8 @@ import argparse
 from pathlib import Path
 import json
 import shutil
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
 
 class CharterClassifier:
@@ -108,7 +115,7 @@ class CharterClassifier:
             if num_classes == 2:
                 self.classes = ['non_papal', 'papal']
             elif num_classes == 4:
-                self.classes = ['non_papal', 'papal', 'papal_canapis', 'non_papal_solemn']
+                self.classes = ['non_papal', 'papal', 'papal_simple', 'non_papal_solemn']
             else:
                 self.classes = [f'Class_{i}' for i in range(num_classes)]
         
@@ -151,13 +158,76 @@ class CharterClassifier:
         
         return result
     
-    def predict_directory(self, directory_path, output_file=None, copy_to=None, copy_classes=None, min_confidence=None):
+    def save_results_xml(self, results, output_file):
+        """
+        Save prediction results as XML
+        
+        Args:
+            results: List of prediction dictionaries
+            output_file: Path to output XML file
+        """
+        
+        # Create root element
+        root = ET.Element('charter_classifications')
+        root.set('total_images', str(len(results)))
+        
+        # Count by class
+        class_counts = {}
+        for result in results:
+            pred = result['prediction']
+            class_counts[pred] = class_counts.get(pred, 0) + 1
+        
+        # Add summary
+        summary = ET.SubElement(root, 'summary')
+        for class_name in self.classes:
+            count = class_counts.get(class_name, 0)
+            class_elem = ET.SubElement(summary, 'class')
+            class_elem.set('name', class_name)
+            class_elem.set('count', str(count))
+        
+        # Add individual results
+        charters = ET.SubElement(root, 'charters')
+        
+        for result in results:
+            charter = ET.SubElement(charters, 'charter')
+            
+            # Image path
+            image_elem = ET.SubElement(charter, 'image')
+            image_elem.text = result['image']
+            
+            # Prediction
+            prediction_elem = ET.SubElement(charter, 'prediction')
+            prediction_elem.text = result['prediction']
+            
+            # Confidence
+            confidence_elem = ET.SubElement(charter, 'confidence')
+            confidence_elem.text = f"{result['confidence']:.6f}"
+            
+            # Probabilities
+            if 'probabilities' in result:
+                probs_elem = ET.SubElement(charter, 'probabilities')
+                for class_name, prob in result['probabilities'].items():
+                    prob_elem = ET.SubElement(probs_elem, 'probability')
+                    prob_elem.set('class', class_name)
+                    prob_elem.text = f"{prob:.6f}"
+        
+        # Pretty print XML
+        xml_str = minidom.parseString(ET.tostring(root)).toprettyxml(indent="  ")
+        
+        # Write to file
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(xml_str)
+        
+        print(f"\nResults saved to {output_file}")
+    
+    def predict_directory(self, directory_path, output_file=None, output_format='json', copy_to=None, copy_classes=None, min_confidence=None):
         """
         Classify all images in a directory
         
         Args:
             directory_path: Path to directory containing images
-            output_file: Optional path to save results as JSON
+            output_file: Optional path to save results
+            output_format: Output format - 'json' or 'xml' (default: 'json')
             copy_to: Optional path to directory where selected images should be copied
             copy_classes: List of class names to copy (default: all classes containing 'Papal')
             min_confidence: Optional minimum confidence threshold for copying (default: None, copies all)
@@ -192,9 +262,12 @@ class CharterClassifier:
         
         # Save results if output file specified
         if output_file:
-            with open(output_file, 'w') as f:
-                json.dump(results, f, indent=2)
-            print(f"\nResults saved to {output_file}")
+            if output_format.lower() == 'xml':
+                self.save_results_xml(results, output_file)
+            else:  # default to JSON
+                with open(output_file, 'w') as f:
+                    json.dump(results, f, indent=2)
+                print(f"\nResults saved to {output_file}")
         
         # Copy selected images if directory specified
         if copy_to:
@@ -283,7 +356,9 @@ def main():
     parser.add_argument('--classes', type=str, nargs='+',
                        help='Custom class names in order (e.g., --classes "Other" "Simple Papal" "Solemn Non-Papal" "Solemn Papal")')
     parser.add_argument('--output', type=str,
-                       help='Output JSON file for results (only for --directory mode)')
+                       help='Output file for results (only for --directory mode)')
+    parser.add_argument('--output-format', type=str, choices=['json', 'xml'], default='json',
+                       help='Output format - json or xml (default: json)')
     parser.add_argument('--copy-to', type=str,
                        help='Directory to copy selected images to (only for --directory mode)')
     parser.add_argument('--copy-classes', type=str, nargs='+',
@@ -338,7 +413,8 @@ def main():
         
         results = classifier.predict_directory(
             args.directory, 
-            args.output, 
+            args.output,
+            output_format=args.output_format,
             copy_to=args.copy_to,
             copy_classes=args.copy_classes,
             min_confidence=args.min_confidence

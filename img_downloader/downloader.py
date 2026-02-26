@@ -10,13 +10,13 @@ from tqdm import tqdm
 import threading
 
 # ===== CONFIG =====
-INPUT_FILE = "image_urls.txt"
+INPUT_FILE = "new_papal_imgs.txt"
 OUTPUT_DIR = "downloaded_images"
 FAILED_FILE = "failed_downloads.txt"
 MAX_WORKERS = 32
 TIMEOUT = 15
 RETRY_FAILED_PASS = True
-MAX_IMAGES = 10000   # Set to None to download all
+MAX_IMAGES = None   # Set to None to download all
 # ==================
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
