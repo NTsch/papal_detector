@@ -15,8 +15,9 @@ Usage:
     # Classify and save results to JSON
     python predict.py --directory path/to/charters/ --output results.json
     
-    # Classify and save results to XML
-    python predict.py --directory path/to/charters/ --output results.xml --output-format xml
+    # Classify and save results to XML with metadata (fond, database ID)
+    python predict.py --directory path/to/charters/ --output results.xml --output-format xml \
+        --metadata klosterbestaende_bilder.xml
     
     # For BINARY models (2 classes):
     # Copy papal images to a separate directory
@@ -55,7 +56,7 @@ from xml.dom import minidom
 class CharterClassifier:
     """Wrapper class for charter classification"""
     
-    def __init__(self, model_path='results/best_model.pth', device=None, class_names=None):
+    def __init__(self, model_path='results/best_model.pth', device=None, class_names=None, metadata_file=None):
         """
         Initialize the classifier
         
@@ -63,6 +64,7 @@ class CharterClassifier:
             model_path: Path to trained model weights
             device: Device to run inference on ('cuda' or 'cpu')
             class_names: List of class names (optional, will auto-detect from model if not provided)
+            metadata_file: Path to XML file containing image metadata (fond, database ID)
         """
         
         if device is None:
@@ -71,6 +73,11 @@ class CharterClassifier:
             self.device = device
         
         print(f"Loading model on device: {self.device}")
+        
+        # Load metadata if provided
+        self.metadata = {}
+        if metadata_file:
+            self._load_metadata(metadata_file)
         
         # Load checkpoint to determine number of classes
         checkpoint = torch.load(model_path, map_location=self.device)
@@ -113,14 +120,72 @@ class CharterClassifier:
         else:
             # Default class names based on number of classes
             if num_classes == 2:
-                self.classes = ['non_papal', 'papal']
+                self.classes = ['Non-Papal', 'Papal']
             elif num_classes == 4:
-                self.classes = ['non_papal', 'papal', 'papal_simple', 'non_papal_solemn']
+                self.classes = ['non_papal_simple', 'papal_solemn', 'papal_simple', 'non_papal_solemn']
             else:
                 self.classes = [f'Class_{i}' for i in range(num_classes)]
         
         print(f"Class names: {self.classes}")
         print("Model loaded successfully!")
+    
+    def _load_metadata(self, metadata_file):
+        """
+        Load charter metadata from XML file
+        
+        Args:
+            metadata_file: Path to XML file with charter metadata
+        """
+        try:
+            tree = ET.parse(metadata_file)
+            root = tree.getroot()
+            
+            print(f"Loading metadata from {metadata_file}...")
+            
+            for charter in root.findall('.//charter'):
+                img_url = charter.get('img')
+                charter_id = charter.get('id')
+                
+                if img_url and charter_id:
+                    # Extract filename from URL
+                    img_filename = img_url.split('/')[-1]
+                    
+                    # Extract fond from ID
+                    # Format: tag:www.monasterium.net,2011:/charter/AT-AWMK/WienOFMConv/88
+                    # We want: AT-AWMK/WienOFMConv
+                    if '/charter/' in charter_id:
+                        parts = charter_id.split('/charter/')[-1].split('/')
+                        if len(parts) >= 3:
+                            fond = '/'.join(parts[:-1])
+                        else:
+                            fond = None
+                    else:
+                        fond = None
+                    
+                    self.metadata[img_filename] = {
+                        'id': charter_id,
+                        'fond': fond,
+                        'img_url': img_url
+                    }
+            
+            print(f"Loaded metadata for {len(self.metadata)} images")
+        
+        except Exception as e:
+            print(f"Warning: Could not load metadata file: {e}")
+            self.metadata = {}
+    
+    def _get_metadata_for_image(self, image_path):
+        """
+        Get metadata for an image based on its filename
+        
+        Args:
+            image_path: Path to image file
+        
+        Returns:
+            dict with 'id' and 'fond' keys, or None if not found
+        """
+        filename = Path(image_path).name
+        return self.metadata.get(filename)
     
     def predict_single(self, image_path, return_prob=True):
         """
@@ -190,6 +255,16 @@ class CharterClassifier:
         
         for result in results:
             charter = ET.SubElement(charters, 'charter')
+            
+            # Get metadata for this image
+            metadata = self._get_metadata_for_image(result['image'])
+            
+            # Add database ID and fond if available
+            if metadata:
+                if metadata.get('id'):
+                    charter.set('id', metadata['id'])
+                if metadata.get('fond'):
+                    charter.set('fond', metadata['fond'])
             
             # Image path
             image_elem = ET.SubElement(charter, 'image')
@@ -353,6 +428,8 @@ def main():
                        help='Path to directory containing images to classify')
     parser.add_argument('--model', type=str, default='results/best_model.pth',
                        help='Path to trained model (default: results/best_model.pth)')
+    parser.add_argument('--metadata', type=str,
+                       help='Path to XML file containing charter metadata (fond, database ID)')
     parser.add_argument('--classes', type=str, nargs='+',
                        help='Custom class names in order (e.g., --classes "Other" "Simple Papal" "Solemn Non-Papal" "Solemn Papal")')
     parser.add_argument('--output', type=str,
@@ -377,7 +454,8 @@ def main():
     classifier = CharterClassifier(
         model_path=args.model, 
         device=args.device,
-        class_names=args.classes
+        class_names=args.classes,
+        metadata_file=args.metadata
     )
     
     # Single image mode

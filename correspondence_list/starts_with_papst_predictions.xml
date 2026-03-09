@@ -1,0 +1,3773 @@
+<?xml version="1.0" ?>
+<charter_classifications total_images="342">
+  <summary>
+    <class name="non_papal_simple" count="22"/>
+    <class name="papal_solemn" count="249"/>
+    <class name="papal_simple" count="55"/>
+    <class name="non_papal_solemn" count="16"/>
+  </summary>
+  <charters>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/SOAT-PremonstratiZeliv_13720315_0031_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.958907</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000190</probability>
+        <probability class="papal_solemn">0.958907</probability>
+        <probability class="papal_simple">0.028285</probability>
+        <probability class="non_papal_solemn">0.012619</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001203_7b4a7401-7bdf-40d4-a084-8b78d481feaa_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.753297</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000100</probability>
+        <probability class="papal_solemn">0.246113</probability>
+        <probability class="papal_simple">0.753297</probability>
+        <probability class="non_papal_solemn">0.000490</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_008-G_13091008_01.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.558342</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.558342</probability>
+        <probability class="papal_solemn">0.022447</probability>
+        <probability class="papal_simple">0.067291</probability>
+        <probability class="non_papal_solemn">0.351920</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Lilienfeldjpgweb._~StAL__14650401-1-2.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.997665</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001155</probability>
+        <probability class="papal_solemn">0.997665</probability>
+        <probability class="papal_simple">0.000390</probability>
+        <probability class="non_papal_solemn">0.000791</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13891109_155_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.676024</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000570</probability>
+        <probability class="papal_solemn">0.676024</probability>
+        <probability class="papal_simple">0.322409</probability>
+        <probability class="non_papal_solemn">0.000997</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_14180218_00397_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.990635</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000046</probability>
+        <probability class="papal_solemn">0.990635</probability>
+        <probability class="papal_simple">0.001323</probability>
+        <probability class="non_papal_solemn">0.007995</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14780212_1434_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.927477</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.927477</probability>
+        <probability class="papal_solemn">0.060088</probability>
+        <probability class="papal_simple">0.009334</probability>
+        <probability class="non_papal_solemn">0.003101</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_15150715_075_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.953336</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000056</probability>
+        <probability class="papal_solemn">0.953336</probability>
+        <probability class="papal_simple">0.036951</probability>
+        <probability class="non_papal_solemn">0.009658</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_210_578_14591031_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.984972</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000003</probability>
+        <probability class="papal_solemn">0.984972</probability>
+        <probability class="papal_simple">0.014861</probability>
+        <probability class="non_papal_solemn">0.000164</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002507_059cbc44-5a9b-42f3-84b3-05c9c5b6e02e_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.970289</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000250</probability>
+        <probability class="papal_solemn">0.970289</probability>
+        <probability class="papal_simple">0.028435</probability>
+        <probability class="non_papal_solemn">0.001027</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_416_13720701_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.958770</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000008</probability>
+        <probability class="papal_solemn">0.958770</probability>
+        <probability class="papal_simple">0.041149</probability>
+        <probability class="non_papal_solemn">0.000073</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13920612_165_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.956852</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001406</probability>
+        <probability class="papal_solemn">0.956852</probability>
+        <probability class="papal_simple">0.038618</probability>
+        <probability class="non_papal_solemn">0.003124</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederltaich_14061219_02464_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.971277</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000022</probability>
+        <probability class="papal_solemn">0.971277</probability>
+        <probability class="papal_simple">0.019722</probability>
+        <probability class="non_papal_solemn">0.008979</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAAd_13981113_JJJ-7_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.537195</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002546</probability>
+        <probability class="papal_solemn">0.403094</probability>
+        <probability class="papal_simple">0.057165</probability>
+        <probability class="non_papal_solemn">0.537195</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000926_5f9eadae-38bb-4ef1-8536-7a65b7e5e4d9_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.568872</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001935</probability>
+        <probability class="papal_solemn">0.568872</probability>
+        <probability class="papal_simple">0.425305</probability>
+        <probability class="non_papal_solemn">0.003888</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14841221_1520-a_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.801024</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.015836</probability>
+        <probability class="papal_solemn">0.801024</probability>
+        <probability class="papal_simple">0.172286</probability>
+        <probability class="non_papal_solemn">0.010854</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_14850526_00159-1_r-2.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.457989</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.074391</probability>
+        <probability class="papal_solemn">0.405427</probability>
+        <probability class="papal_simple">0.457989</probability>
+        <probability class="non_papal_solemn">0.062193</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000937_73f1dc4d-ce15-4179-b582-d64bbf796de8_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.540106</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005884</probability>
+        <probability class="papal_solemn">0.436283</probability>
+        <probability class="papal_simple">0.540106</probability>
+        <probability class="non_papal_solemn">0.017727</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14010922_195_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.968701</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000351</probability>
+        <probability class="papal_solemn">0.968701</probability>
+        <probability class="papal_simple">0.025734</probability>
+        <probability class="non_papal_solemn">0.005214</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001747_1b580c9f-6427-47a0-870b-0a769617ecb1_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.804149</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000499</probability>
+        <probability class="papal_solemn">0.804149</probability>
+        <probability class="papal_simple">0.190901</probability>
+        <probability class="non_papal_solemn">0.004452</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13960617_177_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.972274</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002732</probability>
+        <probability class="papal_solemn">0.972274</probability>
+        <probability class="papal_simple">0.003349</probability>
+        <probability class="non_papal_solemn">0.021645</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14871021_00324_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.662375</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.044730</probability>
+        <probability class="papal_solemn">0.025546</probability>
+        <probability class="papal_simple">0.267349</probability>
+        <probability class="non_papal_solemn">0.662375</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13120307_00126_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.605703</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000595</probability>
+        <probability class="papal_solemn">0.605703</probability>
+        <probability class="papal_simple">0.390462</probability>
+        <probability class="non_papal_solemn">0.003239</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14790612_AXI-46_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.993816</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000007</probability>
+        <probability class="papal_solemn">0.993816</probability>
+        <probability class="papal_simple">0.001064</probability>
+        <probability class="non_papal_solemn">0.005113</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13180806_E43-P9-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.949209</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004027</probability>
+        <probability class="papal_solemn">0.949209</probability>
+        <probability class="papal_simple">0.046656</probability>
+        <probability class="non_papal_solemn">0.000108</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_13620618_00268_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.713355</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000094</probability>
+        <probability class="papal_solemn">0.713355</probability>
+        <probability class="papal_simple">0.277573</probability>
+        <probability class="non_papal_solemn">0.008979</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_323_14791220_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.987360</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000199</probability>
+        <probability class="papal_solemn">0.987360</probability>
+        <probability class="papal_simple">0.000905</probability>
+        <probability class="non_papal_solemn">0.011536</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13410111_90_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.824277</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.109674</probability>
+        <probability class="papal_solemn">0.046261</probability>
+        <probability class="papal_simple">0.824277</probability>
+        <probability class="non_papal_solemn">0.019788</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13630620_00439_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.575028</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000302</probability>
+        <probability class="papal_solemn">0.423950</probability>
+        <probability class="papal_simple">0.575028</probability>
+        <probability class="non_papal_solemn">0.000720</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_14850526_00159_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.891214</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000174</probability>
+        <probability class="papal_solemn">0.891214</probability>
+        <probability class="papal_simple">0.078980</probability>
+        <probability class="non_papal_solemn">0.029632</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14460319_1090_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.830404</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001008</probability>
+        <probability class="papal_solemn">0.830404</probability>
+        <probability class="papal_simple">0.164231</probability>
+        <probability class="non_papal_solemn">0.004356</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13340609_00314_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.735864</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005387</probability>
+        <probability class="papal_solemn">0.248626</probability>
+        <probability class="papal_simple">0.735864</probability>
+        <probability class="non_papal_solemn">0.010124</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_196_14020512_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.910150</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000006</probability>
+        <probability class="papal_solemn">0.910150</probability>
+        <probability class="papal_simple">0.089517</probability>
+        <probability class="non_papal_solemn">0.000327</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 478 Vorderseite (1575 Mai 07).jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.973804</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.973804</probability>
+        <probability class="papal_solemn">0.000281</probability>
+        <probability class="papal_simple">0.004362</probability>
+        <probability class="non_papal_solemn">0.021554</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000298-1_a54f1d22-f701-4ec5-98da-9391fcd68904_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.878073</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000769</probability>
+        <probability class="papal_solemn">0.878073</probability>
+        <probability class="papal_simple">0.120858</probability>
+        <probability class="non_papal_solemn">0.000300</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 444 Vorderseite (1550 Juni 20).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.490955</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.051511</probability>
+        <probability class="papal_solemn">0.490955</probability>
+        <probability class="papal_simple">0.274531</probability>
+        <probability class="non_papal_solemn">0.183003</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14020412_E18-A7a-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.998789</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000004</probability>
+        <probability class="papal_solemn">0.998789</probability>
+        <probability class="papal_simple">0.001078</probability>
+        <probability class="non_papal_solemn">0.000130</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001084_c028b97d-612f-46ea-be3b-fd36ea54c429_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994288</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000018</probability>
+        <probability class="papal_solemn">0.994288</probability>
+        <probability class="papal_simple">0.005156</probability>
+        <probability class="non_papal_solemn">0.000538</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_13190507_AVI-9_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.724452</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.023160</probability>
+        <probability class="papal_solemn">0.215499</probability>
+        <probability class="papal_simple">0.724452</probability>
+        <probability class="non_papal_solemn">0.036889</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13910408_159_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.988045</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000073</probability>
+        <probability class="papal_solemn">0.988045</probability>
+        <probability class="papal_simple">0.011490</probability>
+        <probability class="non_papal_solemn">0.000392</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_087-B-02_13760118_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.927883</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002294</probability>
+        <probability class="papal_solemn">0.066253</probability>
+        <probability class="papal_simple">0.927883</probability>
+        <probability class="non_papal_solemn">0.003569</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15311218_AXIII-24_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.982627</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000145</probability>
+        <probability class="papal_solemn">0.982627</probability>
+        <probability class="papal_simple">0.008613</probability>
+        <probability class="non_papal_solemn">0.008614</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_70_13120503_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.773106</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006625</probability>
+        <probability class="papal_solemn">0.773106</probability>
+        <probability class="papal_simple">0.208371</probability>
+        <probability class="non_papal_solemn">0.011898</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_14101113_00661_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.842085</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000519</probability>
+        <probability class="papal_solemn">0.842085</probability>
+        <probability class="papal_simple">0.156547</probability>
+        <probability class="non_papal_solemn">0.000849</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_14630223_00240_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.605090</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000640</probability>
+        <probability class="papal_solemn">0.605090</probability>
+        <probability class="papal_simple">0.391675</probability>
+        <probability class="non_papal_solemn">0.002596</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002785_a975a8d8-b3bf-4431-878b-3cb7c50a233b_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.398587</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.373013</probability>
+        <probability class="papal_solemn">0.093733</probability>
+        <probability class="papal_simple">0.398587</probability>
+        <probability class="non_papal_solemn">0.134667</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_14490623_00535_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.983978</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000172</probability>
+        <probability class="papal_solemn">0.983978</probability>
+        <probability class="papal_simple">0.002360</probability>
+        <probability class="non_papal_solemn">0.013491</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_15000627_1775_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.963628</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006818</probability>
+        <probability class="papal_solemn">0.963628</probability>
+        <probability class="papal_simple">0.009314</probability>
+        <probability class="non_papal_solemn">0.020240</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 998 Vorderseite (1425 September 19).jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.566264</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004481</probability>
+        <probability class="papal_solemn">0.385193</probability>
+        <probability class="papal_simple">0.566264</probability>
+        <probability class="non_papal_solemn">0.044063</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAMB-Urkunden_1455_C-124_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.691452</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000025</probability>
+        <probability class="papal_solemn">0.691452</probability>
+        <probability class="papal_simple">0.001565</probability>
+        <probability class="non_papal_solemn">0.306957</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000788_ed0bc4ef-c25d-448c-896b-38bd4af84d76_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.745485</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000022</probability>
+        <probability class="papal_solemn">0.745485</probability>
+        <probability class="papal_simple">0.254154</probability>
+        <probability class="non_papal_solemn">0.000339</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002367_9c117cfd-d3c9-4246-9697-f08923a0dd1a_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.992826</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000110</probability>
+        <probability class="papal_solemn">0.992826</probability>
+        <probability class="papal_simple">0.004870</probability>
+        <probability class="non_papal_solemn">0.002195</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13090902_00117_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.633275</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006033</probability>
+        <probability class="papal_solemn">0.633275</probability>
+        <probability class="papal_simple">0.305665</probability>
+        <probability class="non_papal_solemn">0.055026</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_164_136_14890611_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.996608</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000088</probability>
+        <probability class="papal_solemn">0.996608</probability>
+        <probability class="papal_simple">0.003152</probability>
+        <probability class="non_papal_solemn">0.000152</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001733_b3cd67e1-444f-4551-b782-7851bc93361c_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.963814</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001357</probability>
+        <probability class="papal_solemn">0.963814</probability>
+        <probability class="papal_simple">0.034007</probability>
+        <probability class="non_papal_solemn">0.000823</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_472_15230831_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.801256</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.007209</probability>
+        <probability class="papal_solemn">0.801256</probability>
+        <probability class="papal_simple">0.168433</probability>
+        <probability class="non_papal_solemn">0.023102</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000927_d0914feb-9304-45a5-a332-689ad296a3d3_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.619337</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.007327</probability>
+        <probability class="papal_solemn">0.353236</probability>
+        <probability class="papal_simple">0.619337</probability>
+        <probability class="non_papal_solemn">0.020100</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_388_14761105_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.787967</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000148</probability>
+        <probability class="papal_solemn">0.787967</probability>
+        <probability class="papal_simple">0.199686</probability>
+        <probability class="non_papal_solemn">0.012200</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_15130321_00264_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.666210</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.015610</probability>
+        <probability class="papal_solemn">0.666210</probability>
+        <probability class="papal_simple">0.067257</probability>
+        <probability class="non_papal_solemn">0.250923</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14910227_E6-Eg31--10-494-r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.726063</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.726063</probability>
+        <probability class="papal_solemn">0.010021</probability>
+        <probability class="papal_simple">0.022569</probability>
+        <probability class="non_papal_solemn">0.241347</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13910412_160_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.924508</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000020</probability>
+        <probability class="papal_solemn">0.924508</probability>
+        <probability class="papal_simple">0.074594</probability>
+        <probability class="non_papal_solemn">0.000878</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14730916_AXI-14a_01.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.784069</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.177750</probability>
+        <probability class="papal_solemn">0.033679</probability>
+        <probability class="papal_simple">0.004502</probability>
+        <probability class="non_papal_solemn">0.784069</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 805 Vorderseite (1508 Februar 16).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.903480</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005611</probability>
+        <probability class="papal_solemn">0.903480</probability>
+        <probability class="papal_simple">0.004618</probability>
+        <probability class="non_papal_solemn">0.086292</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001049_bb3ebc88-ea55-4f78-bacb-c3fa5c33bbf2_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.893763</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000047</probability>
+        <probability class="papal_solemn">0.893763</probability>
+        <probability class="papal_simple">0.104142</probability>
+        <probability class="non_papal_solemn">0.002048</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14480830_AX-14_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.971263</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000038</probability>
+        <probability class="papal_solemn">0.971263</probability>
+        <probability class="papal_simple">0.011155</probability>
+        <probability class="non_papal_solemn">0.017545</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000428-1_20ab3c00-15cc-4308-bd9c-3c03eb24293d_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.992008</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000037</probability>
+        <probability class="papal_solemn">0.992008</probability>
+        <probability class="papal_simple">0.006763</probability>
+        <probability class="non_papal_solemn">0.001191</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_162_13780603_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.468970</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009226</probability>
+        <probability class="papal_solemn">0.468970</probability>
+        <probability class="papal_simple">0.228231</probability>
+        <probability class="non_papal_solemn">0.293574</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002370_7e268b70-b921-41e1-b290-24ce5ba30295_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.682185</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004226</probability>
+        <probability class="papal_solemn">0.682185</probability>
+        <probability class="papal_simple">0.295235</probability>
+        <probability class="non_papal_solemn">0.018354</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001857_bd2afa6e-58e7-4c8b-b7fd-d22f70f7206a_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.840533</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000940</probability>
+        <probability class="papal_solemn">0.840533</probability>
+        <probability class="papal_simple">0.156480</probability>
+        <probability class="non_papal_solemn">0.002047</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15311218_AXIII-26_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.913281</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000031</probability>
+        <probability class="papal_solemn">0.913281</probability>
+        <probability class="papal_simple">0.010216</probability>
+        <probability class="non_papal_solemn">0.076472</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000396_5c7ec301-9c05-46ce-8878-b6c9f5a97fcd_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.948511</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000022</probability>
+        <probability class="papal_solemn">0.948511</probability>
+        <probability class="papal_simple">0.051358</probability>
+        <probability class="non_papal_solemn">0.000109</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14190315_A1-C1_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.828861</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001268</probability>
+        <probability class="papal_solemn">0.168847</probability>
+        <probability class="papal_simple">0.828861</probability>
+        <probability class="non_papal_solemn">0.001024</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_13541006_00240_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.704171</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006288</probability>
+        <probability class="papal_solemn">0.258511</probability>
+        <probability class="papal_simple">0.704171</probability>
+        <probability class="non_papal_solemn">0.031029</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__14650401.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.533435</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.533435</probability>
+        <probability class="papal_solemn">0.132969</probability>
+        <probability class="papal_simple">0.103254</probability>
+        <probability class="non_papal_solemn">0.230342</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001947_f29b5996-c532-44ac-ab98-87de3dd2396e_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.610672</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000065</probability>
+        <probability class="papal_solemn">0.610672</probability>
+        <probability class="papal_simple">0.386215</probability>
+        <probability class="non_papal_solemn">0.003048</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAV_148r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.719742</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001679</probability>
+        <probability class="papal_solemn">0.719742</probability>
+        <probability class="papal_simple">0.266448</probability>
+        <probability class="non_papal_solemn">0.012131</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13450624_00262_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.701583</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.041453</probability>
+        <probability class="papal_solemn">0.225964</probability>
+        <probability class="papal_simple">0.701583</probability>
+        <probability class="non_papal_solemn">0.031000</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Lilienfeldjpgweb._~StAL__14141219-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994153</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000001</probability>
+        <probability class="papal_solemn">0.994153</probability>
+        <probability class="papal_simple">0.005768</probability>
+        <probability class="non_papal_solemn">0.000078</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13750316_00487_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.516697</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.025575</probability>
+        <probability class="papal_solemn">0.390187</probability>
+        <probability class="papal_simple">0.067541</probability>
+        <probability class="non_papal_solemn">0.516697</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__13420517.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.590763</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000312</probability>
+        <probability class="papal_solemn">0.309164</probability>
+        <probability class="papal_simple">0.590763</probability>
+        <probability class="non_papal_solemn">0.099762</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltoetting-Chorstift_14010323_00390_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.969570</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000055</probability>
+        <probability class="papal_solemn">0.969570</probability>
+        <probability class="papal_simple">0.009744</probability>
+        <probability class="non_papal_solemn">0.020631</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUPassau-St.Salvator_14701015_00201_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.502780</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003400</probability>
+        <probability class="papal_solemn">0.502780</probability>
+        <probability class="papal_simple">0.490443</probability>
+        <probability class="non_papal_solemn">0.003377</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_194_14020326_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.931627</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000582</probability>
+        <probability class="papal_solemn">0.931627</probability>
+        <probability class="papal_simple">0.064687</probability>
+        <probability class="non_papal_solemn">0.003104</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Neuklosterjpgweb._~Kopialbuch362jpgweb._~StAN__00522.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.771979</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.771979</probability>
+        <probability class="papal_solemn">0.003732</probability>
+        <probability class="papal_simple">0.043255</probability>
+        <probability class="non_papal_solemn">0.181034</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_164_130a_14731202_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.636965</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002986</probability>
+        <probability class="papal_solemn">0.220885</probability>
+        <probability class="papal_simple">0.636965</probability>
+        <probability class="non_papal_solemn">0.139164</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_14040108_00438_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.997571</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000003</probability>
+        <probability class="papal_solemn">0.997571</probability>
+        <probability class="papal_simple">0.001403</probability>
+        <probability class="non_papal_solemn">0.001024</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 1247 Vorderseite (1351 Maerz 18).jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.871762</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.018280</probability>
+        <probability class="papal_solemn">0.087897</probability>
+        <probability class="papal_simple">0.871762</probability>
+        <probability class="non_papal_solemn">0.022061</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14870925_00320_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.684135</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000057</probability>
+        <probability class="papal_solemn">0.684135</probability>
+        <probability class="papal_simple">0.188360</probability>
+        <probability class="non_papal_solemn">0.127448</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_15100715_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.850053</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000571</probability>
+        <probability class="papal_solemn">0.850053</probability>
+        <probability class="papal_simple">0.115886</probability>
+        <probability class="non_papal_solemn">0.033489</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14770212_1427-a_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.983613</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000169</probability>
+        <probability class="papal_solemn">0.983613</probability>
+        <probability class="papal_simple">0.014054</probability>
+        <probability class="non_papal_solemn">0.002164</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13180806_E43-P8-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.529235</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000798</probability>
+        <probability class="papal_solemn">0.529235</probability>
+        <probability class="papal_simple">0.467138</probability>
+        <probability class="non_papal_solemn">0.002830</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_14780513_01093_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.884888</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000394</probability>
+        <probability class="papal_solemn">0.884888</probability>
+        <probability class="papal_simple">0.112880</probability>
+        <probability class="non_papal_solemn">0.001839</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14661223_E6-Dg37-445-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.918954</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001643</probability>
+        <probability class="papal_solemn">0.918954</probability>
+        <probability class="papal_simple">0.070532</probability>
+        <probability class="non_papal_solemn">0.008870</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13790111_E5-B5-599-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.872841</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000611</probability>
+        <probability class="papal_solemn">0.872841</probability>
+        <probability class="papal_simple">0.070436</probability>
+        <probability class="non_papal_solemn">0.056111</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_sta-bamberg_kl-langheim-uk_1395-v-21__e0e4adc6-47ad-405f-8246-1bf8ce36e48a_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.786527</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006100</probability>
+        <probability class="papal_solemn">0.786527</probability>
+        <probability class="papal_simple">0.201750</probability>
+        <probability class="non_papal_solemn">0.005623</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_15190413_00369_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.543351</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002446</probability>
+        <probability class="papal_solemn">0.543351</probability>
+        <probability class="papal_simple">0.439248</probability>
+        <probability class="non_papal_solemn">0.014956</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14070113_O4-Yy2_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.896507</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000071</probability>
+        <probability class="papal_solemn">0.896507</probability>
+        <probability class="papal_simple">0.096297</probability>
+        <probability class="non_papal_solemn">0.007125</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_15150326_253_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.641217</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003408</probability>
+        <probability class="papal_solemn">0.641217</probability>
+        <probability class="papal_simple">0.329373</probability>
+        <probability class="non_papal_solemn">0.026002</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1422_07_27.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.909591</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000485</probability>
+        <probability class="papal_solemn">0.909591</probability>
+        <probability class="papal_simple">0.003207</probability>
+        <probability class="non_papal_solemn">0.086717</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_15041001_00225_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.956670</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001004</probability>
+        <probability class="papal_solemn">0.956670</probability>
+        <probability class="papal_simple">0.013480</probability>
+        <probability class="non_papal_solemn">0.028846</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_292_14920519_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.925464</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000940</probability>
+        <probability class="papal_solemn">0.925464</probability>
+        <probability class="papal_simple">0.024996</probability>
+        <probability class="non_papal_solemn">0.048600</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000428-2_14d1e4da-465a-43a6-b4ed-a1403102e7b3_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.992802</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000406</probability>
+        <probability class="papal_solemn">0.992802</probability>
+        <probability class="papal_simple">0.005670</probability>
+        <probability class="non_papal_solemn">0.001122</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1499_04_13.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.844730</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000400</probability>
+        <probability class="papal_solemn">0.844730</probability>
+        <probability class="papal_simple">0.024937</probability>
+        <probability class="non_papal_solemn">0.129933</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13720304_00329_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.577502</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000139</probability>
+        <probability class="papal_solemn">0.577502</probability>
+        <probability class="papal_simple">0.421413</probability>
+        <probability class="non_papal_solemn">0.000946</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__13140405.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.914042</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000796</probability>
+        <probability class="papal_solemn">0.914042</probability>
+        <probability class="papal_simple">0.060299</probability>
+        <probability class="non_papal_solemn">0.024864</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13951017_173_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.976412</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000230</probability>
+        <probability class="papal_solemn">0.976412</probability>
+        <probability class="papal_simple">0.006540</probability>
+        <probability class="non_papal_solemn">0.016818</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14670411_E18-A11-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.990378</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000035</probability>
+        <probability class="papal_solemn">0.990378</probability>
+        <probability class="papal_simple">0.006863</probability>
+        <probability class="non_papal_solemn">0.002724</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 389 Vorderseite (1449 August 18).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.707533</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000347</probability>
+        <probability class="papal_solemn">0.707533</probability>
+        <probability class="papal_simple">0.247356</probability>
+        <probability class="non_papal_solemn">0.044763</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13620618_00429_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.653820</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000582</probability>
+        <probability class="papal_solemn">0.653820</probability>
+        <probability class="papal_simple">0.344877</probability>
+        <probability class="non_papal_solemn">0.000721</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_1441_1040_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.418914</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.086547</probability>
+        <probability class="papal_solemn">0.418914</probability>
+        <probability class="papal_simple">0.263902</probability>
+        <probability class="non_papal_solemn">0.230637</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederaltaich_13910812_02009_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994175</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000028</probability>
+        <probability class="papal_solemn">0.994175</probability>
+        <probability class="papal_simple">0.005639</probability>
+        <probability class="non_papal_solemn">0.000158</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001043_fb89a88c-aae5-47a8-9930-9a12abbd010c_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.974166</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000125</probability>
+        <probability class="papal_solemn">0.974166</probability>
+        <probability class="papal_simple">0.025146</probability>
+        <probability class="non_papal_solemn">0.000562</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14791122_AXI-51_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.959862</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000064</probability>
+        <probability class="papal_solemn">0.959862</probability>
+        <probability class="papal_simple">0.015510</probability>
+        <probability class="non_papal_solemn">0.024565</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_14010415_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.934939</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004633</probability>
+        <probability class="papal_solemn">0.934939</probability>
+        <probability class="papal_simple">0.040969</probability>
+        <probability class="non_papal_solemn">0.019459</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUPassau-Niedernburg_14890921_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.983535</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000525</probability>
+        <probability class="papal_solemn">0.983535</probability>
+        <probability class="papal_simple">0.011169</probability>
+        <probability class="non_papal_solemn">0.004771</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Zwettljpgweb._~1450-1499._~StAZ__14590426b.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.991882</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.991882</probability>
+        <probability class="papal_solemn">0.004091</probability>
+        <probability class="papal_simple">0.001599</probability>
+        <probability class="non_papal_solemn">0.002428</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Steiermark._~NeubergOCist._~HHStA_Neube_13990602.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.989563</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000060</probability>
+        <probability class="papal_solemn">0.989563</probability>
+        <probability class="papal_simple">0.008602</probability>
+        <probability class="non_papal_solemn">0.001775</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltenhohenau_14770717_00431_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.905032</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.014625</probability>
+        <probability class="papal_solemn">0.905032</probability>
+        <probability class="papal_simple">0.069366</probability>
+        <probability class="non_papal_solemn">0.010978</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Neuklosterjpgweb._~Kopialbuch362jpgweb._~StAN__0052.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.667280</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.667280</probability>
+        <probability class="papal_solemn">0.010913</probability>
+        <probability class="papal_simple">0.015801</probability>
+        <probability class="non_papal_solemn">0.306005</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_114_13170220_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.744834</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.142370</probability>
+        <probability class="papal_solemn">0.055344</probability>
+        <probability class="papal_simple">0.744834</probability>
+        <probability class="non_papal_solemn">0.057451</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13880417_152_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.717766</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002571</probability>
+        <probability class="papal_solemn">0.278880</probability>
+        <probability class="papal_simple">0.717766</probability>
+        <probability class="non_papal_solemn">0.000783</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_15150724_076_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.580478</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001328</probability>
+        <probability class="papal_solemn">0.580478</probability>
+        <probability class="papal_simple">0.141215</probability>
+        <probability class="non_papal_solemn">0.276979</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltoetting-Chorstift_15390714_00199_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.760525</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002461</probability>
+        <probability class="papal_solemn">0.760525</probability>
+        <probability class="papal_simple">0.029301</probability>
+        <probability class="non_papal_solemn">0.207713</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14900617_00339_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.985082</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000321</probability>
+        <probability class="papal_solemn">0.985082</probability>
+        <probability class="papal_simple">0.004993</probability>
+        <probability class="non_papal_solemn">0.009604</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13941021_167_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.534792</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.023789</probability>
+        <probability class="papal_solemn">0.379843</probability>
+        <probability class="papal_simple">0.534792</probability>
+        <probability class="non_papal_solemn">0.061575</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14920105_E3-B4-10-r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.513182</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000547</probability>
+        <probability class="papal_solemn">0.482829</probability>
+        <probability class="papal_simple">0.513182</probability>
+        <probability class="non_papal_solemn">0.003443</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13891118_156_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.984989</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000011</probability>
+        <probability class="papal_solemn">0.984989</probability>
+        <probability class="papal_simple">0.011752</probability>
+        <probability class="non_papal_solemn">0.003247</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000282-4_8eb61fd7-f394-4251-89ca-0997621bfc4d_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.786792</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004535</probability>
+        <probability class="papal_solemn">0.786792</probability>
+        <probability class="papal_simple">0.207518</probability>
+        <probability class="non_papal_solemn">0.001154</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_452_15080520_01.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.632734</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.319736</probability>
+        <probability class="papal_solemn">0.025260</probability>
+        <probability class="papal_simple">0.022271</probability>
+        <probability class="non_papal_solemn">0.632734</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_sta-bamberg_kl-langheim-uk_1395-ii-24__419efd35-4155-4cac-b544-67c7439a2f47_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.430376</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.013670</probability>
+        <probability class="papal_solemn">0.430376</probability>
+        <probability class="papal_simple">0.319253</probability>
+        <probability class="non_papal_solemn">0.236701</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13890126_153_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.864294</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.037164</probability>
+        <probability class="papal_solemn">0.864294</probability>
+        <probability class="papal_simple">0.081317</probability>
+        <probability class="non_papal_solemn">0.017226</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14590804_AX-75_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.749874</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000062</probability>
+        <probability class="papal_solemn">0.749874</probability>
+        <probability class="papal_simple">0.044766</probability>
+        <probability class="non_papal_solemn">0.205297</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_210_387_13750425_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.682688</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005315</probability>
+        <probability class="papal_solemn">0.682688</probability>
+        <probability class="papal_simple">0.286901</probability>
+        <probability class="non_papal_solemn">0.025097</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 1020 Vorderseite (1450 April 13).jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.411206</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.010840</probability>
+        <probability class="papal_solemn">0.360414</probability>
+        <probability class="papal_simple">0.411206</probability>
+        <probability class="non_papal_solemn">0.217540</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_15980411_3507-b_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.955991</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000064</probability>
+        <probability class="papal_solemn">0.955991</probability>
+        <probability class="papal_simple">0.025207</probability>
+        <probability class="non_papal_solemn">0.018738</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAMB-Muellner-Urkunden_14590420_B-033_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.940764</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000214</probability>
+        <probability class="papal_solemn">0.940764</probability>
+        <probability class="papal_simple">0.020355</probability>
+        <probability class="non_papal_solemn">0.038668</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederaltaich_14840106_01006_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.551723</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.061236</probability>
+        <probability class="papal_solemn">0.071245</probability>
+        <probability class="papal_simple">0.315796</probability>
+        <probability class="non_papal_solemn">0.551723</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14141215_A4-B20_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.900685</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000007</probability>
+        <probability class="papal_solemn">0.900685</probability>
+        <probability class="papal_simple">0.001021</probability>
+        <probability class="non_papal_solemn">0.098287</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_13600430_AVII-72_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.623708</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.023055</probability>
+        <probability class="papal_solemn">0.623708</probability>
+        <probability class="papal_simple">0.292479</probability>
+        <probability class="non_papal_solemn">0.060758</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_13540513_00237_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.882568</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000268</probability>
+        <probability class="papal_solemn">0.882568</probability>
+        <probability class="papal_simple">0.113057</probability>
+        <probability class="non_papal_solemn">0.004107</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_13540517_00238_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.985356</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000179</probability>
+        <probability class="papal_solemn">0.985356</probability>
+        <probability class="papal_simple">0.014318</probability>
+        <probability class="non_papal_solemn">0.000147</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000304-2_76f233d8-1d8f-4a9c-9162-f943debbdba4_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.694354</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.108602</probability>
+        <probability class="papal_solemn">0.694354</probability>
+        <probability class="papal_simple">0.191337</probability>
+        <probability class="non_papal_solemn">0.005707</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_ku-rohr_0180_14251011_b0a141b5-e9ac-4f64-a012-1e8bd0b09abe_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.835150</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.026369</probability>
+        <probability class="papal_solemn">0.103674</probability>
+        <probability class="papal_simple">0.835150</probability>
+        <probability class="non_papal_solemn">0.034807</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_008-L_15031126_01.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.704963</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.052301</probability>
+        <probability class="papal_solemn">0.058033</probability>
+        <probability class="papal_simple">0.184704</probability>
+        <probability class="non_papal_solemn">0.704963</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13901102_00412_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.962674</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000005</probability>
+        <probability class="papal_solemn">0.962674</probability>
+        <probability class="papal_simple">0.033814</probability>
+        <probability class="non_papal_solemn">0.003508</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14871019_00323_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.836392</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000194</probability>
+        <probability class="papal_solemn">0.836392</probability>
+        <probability class="papal_simple">0.155085</probability>
+        <probability class="non_papal_solemn">0.008329</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_087-A-04_14280413_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.940203</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000074</probability>
+        <probability class="papal_solemn">0.940203</probability>
+        <probability class="papal_simple">0.048806</probability>
+        <probability class="non_papal_solemn">0.010918</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_E-UK_11_13410609_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.614432</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001011</probability>
+        <probability class="papal_solemn">0.614432</probability>
+        <probability class="papal_simple">0.124045</probability>
+        <probability class="non_papal_solemn">0.260513</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 305 Vorderseite (1307 Januar 18).jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.625971</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.068471</probability>
+        <probability class="papal_solemn">0.257000</probability>
+        <probability class="papal_simple">0.625971</probability>
+        <probability class="non_papal_solemn">0.048557</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1417_12_28-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.952463</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001378</probability>
+        <probability class="papal_solemn">0.952463</probability>
+        <probability class="papal_simple">0.039978</probability>
+        <probability class="non_papal_solemn">0.006181</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_14720511_00674_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.779470</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000422</probability>
+        <probability class="papal_solemn">0.779470</probability>
+        <probability class="papal_simple">0.208649</probability>
+        <probability class="non_papal_solemn">0.011460</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13450624_00261_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.722246</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009154</probability>
+        <probability class="papal_solemn">0.722246</probability>
+        <probability class="papal_simple">0.229492</probability>
+        <probability class="non_papal_solemn">0.039108</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_384_14760301_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.938564</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000030</probability>
+        <probability class="papal_solemn">0.938564</probability>
+        <probability class="papal_simple">0.060679</probability>
+        <probability class="non_papal_solemn">0.000727</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_002-R_14590110_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.922557</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000149</probability>
+        <probability class="papal_solemn">0.922557</probability>
+        <probability class="papal_simple">0.069984</probability>
+        <probability class="non_papal_solemn">0.007310</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_sta-bamberg_kl-langheim-uk_1396-i-10__53e71633-31e8-4a6d-872d-475b0795857d_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.820470</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001105</probability>
+        <probability class="papal_solemn">0.820470</probability>
+        <probability class="papal_simple">0.176084</probability>
+        <probability class="non_papal_solemn">0.002341</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13871127_150_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.970646</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000102</probability>
+        <probability class="papal_solemn">0.970646</probability>
+        <probability class="papal_simple">0.025230</probability>
+        <probability class="non_papal_solemn">0.004022</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14950128_E18-A7-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.736790</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004701</probability>
+        <probability class="papal_solemn">0.736790</probability>
+        <probability class="papal_simple">0.189096</probability>
+        <probability class="non_papal_solemn">0.069413</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_400_148501-02_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.534010</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001463</probability>
+        <probability class="papal_solemn">0.534010</probability>
+        <probability class="papal_simple">0.444080</probability>
+        <probability class="non_papal_solemn">0.020448</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001855_d9500532-7f0b-440f-9d9a-68c299e5db6f_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.930102</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005688</probability>
+        <probability class="papal_solemn">0.930102</probability>
+        <probability class="papal_simple">0.053948</probability>
+        <probability class="non_papal_solemn">0.010262</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000776_36051933-9259-4e0b-8e44-cbd1bd63f2d0_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.538813</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000540</probability>
+        <probability class="papal_solemn">0.538813</probability>
+        <probability class="papal_simple">0.459236</probability>
+        <probability class="non_papal_solemn">0.001411</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14220511_O4-A4_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.853353</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000701</probability>
+        <probability class="papal_solemn">0.853353</probability>
+        <probability class="papal_simple">0.144098</probability>
+        <probability class="non_papal_solemn">0.001849</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13420824_E8-A44-46-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.991507</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000037</probability>
+        <probability class="papal_solemn">0.991507</probability>
+        <probability class="papal_simple">0.007137</probability>
+        <probability class="non_papal_solemn">0.001319</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_14581206_00579_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.752518</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003378</probability>
+        <probability class="papal_solemn">0.752518</probability>
+        <probability class="papal_simple">0.218786</probability>
+        <probability class="non_papal_solemn">0.025318</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MZA_E6_391_Cg13_15840827_b_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.411399</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.411399</probability>
+        <probability class="papal_solemn">0.038686</probability>
+        <probability class="papal_simple">0.378408</probability>
+        <probability class="non_papal_solemn">0.171507</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Wien._~WienKoenigsklosterOSCl._~HHSTA_Koenigskl_1597_06_04.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.850546</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.036767</probability>
+        <probability class="papal_solemn">0.054224</probability>
+        <probability class="papal_simple">0.850546</probability>
+        <probability class="non_papal_solemn">0.058462</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13060708_E18-A8-r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.870703</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000254</probability>
+        <probability class="papal_solemn">0.129008</probability>
+        <probability class="papal_simple">0.870703</probability>
+        <probability class="non_papal_solemn">0.000036</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltoetting-Chorstift_14940515_00419_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.988350</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000053</probability>
+        <probability class="papal_solemn">0.988350</probability>
+        <probability class="papal_simple">0.006601</probability>
+        <probability class="non_papal_solemn">0.004995</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001044_173e3e94-c404-429a-b68f-f46da295c97e_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.934194</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000467</probability>
+        <probability class="papal_solemn">0.934194</probability>
+        <probability class="papal_simple">0.064302</probability>
+        <probability class="non_papal_solemn">0.001038</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_13611015_00089_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.974919</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001821</probability>
+        <probability class="papal_solemn">0.974919</probability>
+        <probability class="papal_simple">0.021551</probability>
+        <probability class="non_papal_solemn">0.001709</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_14660610_00241_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.950240</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002458</probability>
+        <probability class="papal_solemn">0.950240</probability>
+        <probability class="papal_simple">0.027575</probability>
+        <probability class="non_papal_solemn">0.019728</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13251122_E43-P12-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.773063</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000222</probability>
+        <probability class="papal_solemn">0.773063</probability>
+        <probability class="papal_simple">0.208825</probability>
+        <probability class="non_papal_solemn">0.017889</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 432 Vorderseite (1532 August 23).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.922898</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006413</probability>
+        <probability class="papal_solemn">0.922898</probability>
+        <probability class="papal_simple">0.043356</probability>
+        <probability class="non_papal_solemn">0.027333</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_14851011_00160_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.648427</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.025051</probability>
+        <probability class="papal_solemn">0.017089</probability>
+        <probability class="papal_simple">0.648427</probability>
+        <probability class="non_papal_solemn">0.309433</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUPassau-Niedernburg_15030623_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.963612</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000305</probability>
+        <probability class="papal_solemn">0.963612</probability>
+        <probability class="papal_simple">0.015899</probability>
+        <probability class="non_papal_solemn">0.020185</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltoetting-Chorstift_14920124_00142_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.955343</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001383</probability>
+        <probability class="papal_solemn">0.955343</probability>
+        <probability class="papal_simple">0.024053</probability>
+        <probability class="non_papal_solemn">0.019221</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUHoeglwoerth_13841122_00028_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.642955</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009672</probability>
+        <probability class="papal_solemn">0.642955</probability>
+        <probability class="papal_simple">0.285312</probability>
+        <probability class="non_papal_solemn">0.062062</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAA_Urkunden_13650501.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.715609</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000674</probability>
+        <probability class="papal_solemn">0.715609</probability>
+        <probability class="papal_simple">0.250761</probability>
+        <probability class="non_papal_solemn">0.032956</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_14880229_00165_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.981552</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000020</probability>
+        <probability class="papal_solemn">0.981552</probability>
+        <probability class="papal_simple">0.002745</probability>
+        <probability class="non_papal_solemn">0.015683</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_284_13980419_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.979383</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000002</probability>
+        <probability class="papal_solemn">0.979383</probability>
+        <probability class="papal_simple">0.019593</probability>
+        <probability class="non_papal_solemn">0.001022</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000929_9553b119-044a-4201-a6ae-ef7a5f01df88_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.698931</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009784</probability>
+        <probability class="papal_solemn">0.263570</probability>
+        <probability class="papal_simple">0.698931</probability>
+        <probability class="non_papal_solemn">0.027715</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHstA-KUNiederaltaich_14311201_02433_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.705332</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.121275</probability>
+        <probability class="papal_solemn">0.046754</probability>
+        <probability class="papal_simple">0.705332</probability>
+        <probability class="non_papal_solemn">0.126640</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15311218_AXIII-25_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.785924</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000069</probability>
+        <probability class="papal_solemn">0.785924</probability>
+        <probability class="papal_simple">0.059650</probability>
+        <probability class="non_papal_solemn">0.154357</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHStA_Paul_13931014.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.815926</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.016562</probability>
+        <probability class="papal_solemn">0.815926</probability>
+        <probability class="papal_simple">0.092017</probability>
+        <probability class="non_papal_solemn">0.075495</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_14020530_061_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.619195</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.619195</probability>
+        <probability class="papal_solemn">0.097321</probability>
+        <probability class="papal_simple">0.024027</probability>
+        <probability class="non_papal_solemn">0.259456</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_13960323_0670-a_01.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.665412</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.272826</probability>
+        <probability class="papal_solemn">0.026897</probability>
+        <probability class="papal_simple">0.034865</probability>
+        <probability class="non_papal_solemn">0.665412</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14530525_00235_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.916119</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000381</probability>
+        <probability class="papal_solemn">0.916119</probability>
+        <probability class="papal_simple">0.079091</probability>
+        <probability class="non_papal_solemn">0.004410</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAMB-Urkunden_1455_C-123_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.968119</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000051</probability>
+        <probability class="papal_solemn">0.968119</probability>
+        <probability class="papal_simple">0.003022</probability>
+        <probability class="non_papal_solemn">0.028808</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_186_13910408_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.939986</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000042</probability>
+        <probability class="papal_solemn">0.939986</probability>
+        <probability class="papal_simple">0.051344</probability>
+        <probability class="non_papal_solemn">0.008628</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 398 Vorderseite (1471 Februar 19).jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.689728</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.031536</probability>
+        <probability class="papal_solemn">0.205446</probability>
+        <probability class="papal_simple">0.073291</probability>
+        <probability class="non_papal_solemn">0.689728</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1417_12_28-2.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.988049</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000054</probability>
+        <probability class="papal_solemn">0.988049</probability>
+        <probability class="papal_simple">0.001211</probability>
+        <probability class="non_papal_solemn">0.010687</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAAd_14501219_Ff-12a_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.993058</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000119</probability>
+        <probability class="papal_solemn">0.993058</probability>
+        <probability class="papal_simple">0.005610</probability>
+        <probability class="non_papal_solemn">0.001214</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13351212_86_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.593581</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.026376</probability>
+        <probability class="papal_solemn">0.362589</probability>
+        <probability class="papal_simple">0.593581</probability>
+        <probability class="non_papal_solemn">0.017454</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederltaich_14040108_02459_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.995888</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000005</probability>
+        <probability class="papal_solemn">0.995888</probability>
+        <probability class="papal_simple">0.002033</probability>
+        <probability class="non_papal_solemn">0.002074</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_E-UK_37_14501222_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.957991</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000371</probability>
+        <probability class="papal_solemn">0.957991</probability>
+        <probability class="papal_simple">0.030919</probability>
+        <probability class="non_papal_solemn">0.010720</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_59_13001109_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.930514</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.007034</probability>
+        <probability class="papal_solemn">0.930514</probability>
+        <probability class="papal_simple">0.054321</probability>
+        <probability class="non_papal_solemn">0.008131</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13381027_E6-Gc1--24-507-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.528452</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.093090</probability>
+        <probability class="papal_solemn">0.127704</probability>
+        <probability class="papal_simple">0.528452</probability>
+        <probability class="non_papal_solemn">0.250753</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_15031126_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.828798</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.020411</probability>
+        <probability class="papal_solemn">0.828798</probability>
+        <probability class="papal_simple">0.042705</probability>
+        <probability class="non_papal_solemn">0.108085</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13951014_172_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.989821</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000466</probability>
+        <probability class="papal_solemn">0.989821</probability>
+        <probability class="papal_simple">0.006551</probability>
+        <probability class="non_papal_solemn">0.003162</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13960617_182_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.990561</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001055</probability>
+        <probability class="papal_solemn">0.990561</probability>
+        <probability class="papal_simple">0.005930</probability>
+        <probability class="non_papal_solemn">0.002454</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13891118_157_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.887821</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.024668</probability>
+        <probability class="papal_solemn">0.887821</probability>
+        <probability class="papal_simple">0.031077</probability>
+        <probability class="non_papal_solemn">0.056433</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_13780513_E3-G20-112-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.459157</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.012414</probability>
+        <probability class="papal_solemn">0.459157</probability>
+        <probability class="papal_simple">0.335001</probability>
+        <probability class="non_papal_solemn">0.193428</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002168_c4e87614-31fc-45ee-a11d-7501bc96409e_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.621709</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.154182</probability>
+        <probability class="papal_solemn">0.115118</probability>
+        <probability class="papal_simple">0.621709</probability>
+        <probability class="non_papal_solemn">0.108991</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13941021_168_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.857596</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001177</probability>
+        <probability class="papal_solemn">0.857596</probability>
+        <probability class="papal_simple">0.125670</probability>
+        <probability class="non_papal_solemn">0.015557</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14001020_0711_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.791867</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001940</probability>
+        <probability class="papal_solemn">0.204216</probability>
+        <probability class="papal_simple">0.791867</probability>
+        <probability class="non_papal_solemn">0.001977</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13120307_00125_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.847556</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.016883</probability>
+        <probability class="papal_solemn">0.131906</probability>
+        <probability class="papal_simple">0.847556</probability>
+        <probability class="non_papal_solemn">0.003654</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAAd_13981113_JJJ-7_r2.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.907899</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000027</probability>
+        <probability class="papal_solemn">0.907899</probability>
+        <probability class="papal_simple">0.020956</probability>
+        <probability class="non_papal_solemn">0.071118</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14120328_B2-C6_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.618225</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009893</probability>
+        <probability class="papal_solemn">0.185321</probability>
+        <probability class="papal_simple">0.186562</probability>
+        <probability class="non_papal_solemn">0.618225</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13960617_181_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.995150</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000221</probability>
+        <probability class="papal_solemn">0.995150</probability>
+        <probability class="papal_simple">0.003896</probability>
+        <probability class="non_papal_solemn">0.000733</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 462 Vorderseite  (1570 Juni 26).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.775413</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.029344</probability>
+        <probability class="papal_solemn">0.775413</probability>
+        <probability class="papal_simple">0.025548</probability>
+        <probability class="non_papal_solemn">0.169695</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAA_Urkunden_15161128.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.929319</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000384</probability>
+        <probability class="papal_solemn">0.929319</probability>
+        <probability class="papal_simple">0.069581</probability>
+        <probability class="non_papal_solemn">0.000715</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_369_14720717_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.820720</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000827</probability>
+        <probability class="papal_solemn">0.820720</probability>
+        <probability class="papal_simple">0.167358</probability>
+        <probability class="non_papal_solemn">0.011095</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_14290608_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.481300</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.481300</probability>
+        <probability class="papal_solemn">0.047403</probability>
+        <probability class="papal_simple">0.100580</probability>
+        <probability class="non_papal_solemn">0.370716</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000529-2_be2629ef-23bf-4f41-9903-d643ad395eb9_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.980905</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000558</probability>
+        <probability class="papal_solemn">0.980905</probability>
+        <probability class="papal_simple">0.016077</probability>
+        <probability class="non_papal_solemn">0.002460</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14041116_201_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.996176</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000022</probability>
+        <probability class="papal_solemn">0.996176</probability>
+        <probability class="papal_simple">0.000800</probability>
+        <probability class="non_papal_solemn">0.003001</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13120113_66_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.934264</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.037689</probability>
+        <probability class="papal_solemn">0.024842</probability>
+        <probability class="papal_simple">0.934264</probability>
+        <probability class="non_papal_solemn">0.003205</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederaltaich_14870814_01033_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.992313</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.992313</probability>
+        <probability class="papal_solemn">0.001959</probability>
+        <probability class="papal_simple">0.002536</probability>
+        <probability class="non_papal_solemn">0.003192</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltoetting-Chorstift_14010327_00051_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.984703</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000119</probability>
+        <probability class="papal_solemn">0.984703</probability>
+        <probability class="papal_simple">0.005712</probability>
+        <probability class="non_papal_solemn">0.009467</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14420618_A1-E2_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.855735</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000679</probability>
+        <probability class="papal_solemn">0.855735</probability>
+        <probability class="papal_simple">0.136504</probability>
+        <probability class="non_papal_solemn">0.007082</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13001113_00091_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.746750</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000562</probability>
+        <probability class="papal_solemn">0.746750</probability>
+        <probability class="papal_simple">0.252153</probability>
+        <probability class="non_papal_solemn">0.000535</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14620324_00247_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.951279</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005358</probability>
+        <probability class="papal_solemn">0.951279</probability>
+        <probability class="papal_simple">0.034373</probability>
+        <probability class="non_papal_solemn">0.008991</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_319_14260706_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.979085</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000235</probability>
+        <probability class="papal_solemn">0.979085</probability>
+        <probability class="papal_simple">0.010568</probability>
+        <probability class="non_papal_solemn">0.010112</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000304-1_34f0c787-985d-4f0a-a1b0-56dbc68d3e4b_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.693044</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000351</probability>
+        <probability class="papal_solemn">0.693044</probability>
+        <probability class="papal_simple">0.304410</probability>
+        <probability class="non_papal_solemn">0.002194</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_14670518_01003_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.945022</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000155</probability>
+        <probability class="papal_solemn">0.945022</probability>
+        <probability class="papal_simple">0.051180</probability>
+        <probability class="non_papal_solemn">0.003643</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14940531_00345_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.992750</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000033</probability>
+        <probability class="papal_solemn">0.992750</probability>
+        <probability class="papal_simple">0.001090</probability>
+        <probability class="non_papal_solemn">0.006127</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_sta-bamberg_kl-langheim-uk_1336-i-30__5afe1b45-f249-45b9-9a79-4a45a707d757_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.562576</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.018171</probability>
+        <probability class="papal_solemn">0.562576</probability>
+        <probability class="papal_simple">0.382509</probability>
+        <probability class="non_papal_solemn">0.036744</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14910324_E6-Eg29-485-r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.879274</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.017971</probability>
+        <probability class="papal_solemn">0.042582</probability>
+        <probability class="papal_simple">0.879274</probability>
+        <probability class="non_papal_solemn">0.060173</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14920413_E3-D1-39-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.987225</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000100</probability>
+        <probability class="papal_solemn">0.987225</probability>
+        <probability class="papal_simple">0.009788</probability>
+        <probability class="non_papal_solemn">0.002887</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000263_a98adaf0-f415-447f-97e4-f022bef83b74_0001.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.504880</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.504880</probability>
+        <probability class="papal_solemn">0.417077</probability>
+        <probability class="papal_simple">0.073450</probability>
+        <probability class="non_papal_solemn">0.004593</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13860221_146_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.508794</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000194</probability>
+        <probability class="papal_solemn">0.480059</probability>
+        <probability class="papal_simple">0.508794</probability>
+        <probability class="non_papal_solemn">0.010953</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13960617_180_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.980976</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000063</probability>
+        <probability class="papal_solemn">0.980976</probability>
+        <probability class="papal_simple">0.016653</probability>
+        <probability class="non_papal_solemn">0.002308</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_E-UK_146_15941210_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.627914</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.627914</probability>
+        <probability class="papal_solemn">0.012479</probability>
+        <probability class="papal_simple">0.129924</probability>
+        <probability class="non_papal_solemn">0.229683</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Neuklosterjpgweb._~Urkundenjpgweb._~StAN__15060610-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.873402</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000806</probability>
+        <probability class="papal_solemn">0.873402</probability>
+        <probability class="papal_simple">0.065544</probability>
+        <probability class="non_papal_solemn">0.060247</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_sta-bamberg_kl-langheim-uk_1366-x-30__03e5d38d-d122-4776-b20d-5a53c565b6d4_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.909456</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002904</probability>
+        <probability class="papal_solemn">0.080027</probability>
+        <probability class="papal_simple">0.909456</probability>
+        <probability class="non_papal_solemn">0.007613</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14141205_A4-B19_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.951752</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000022</probability>
+        <probability class="papal_solemn">0.951752</probability>
+        <probability class="papal_simple">0.004480</probability>
+        <probability class="non_papal_solemn">0.043746</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000777_d659e61b-840d-4e8d-9d1f-c177b4239c5a_0001.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.578793</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002368</probability>
+        <probability class="papal_solemn">0.408626</probability>
+        <probability class="papal_simple">0.578793</probability>
+        <probability class="non_papal_solemn">0.010214</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA_RBB_176_13960617_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.988815</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000064</probability>
+        <probability class="papal_solemn">0.988815</probability>
+        <probability class="papal_simple">0.010712</probability>
+        <probability class="non_papal_solemn">0.000409</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_14040130_00441_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.998226</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000051</probability>
+        <probability class="papal_solemn">0.998226</probability>
+        <probability class="papal_simple">0.000778</probability>
+        <probability class="non_papal_solemn">0.000945</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/Urk. 77 Nr. 803 Vorderseite (1500 Juni 02).jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.750369</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000090</probability>
+        <probability class="papal_solemn">0.750369</probability>
+        <probability class="papal_simple">0.244992</probability>
+        <probability class="non_papal_solemn">0.004549</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13420622_00253_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.668129</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001007</probability>
+        <probability class="papal_solemn">0.320974</probability>
+        <probability class="papal_simple">0.668129</probability>
+        <probability class="non_papal_solemn">0.009889</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15311219_AXIII-28_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.601613</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.048317</probability>
+        <probability class="papal_solemn">0.601613</probability>
+        <probability class="papal_simple">0.105770</probability>
+        <probability class="non_papal_solemn">0.244299</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_14760518_01077_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.948921</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000729</probability>
+        <probability class="papal_solemn">0.948921</probability>
+        <probability class="papal_simple">0.044828</probability>
+        <probability class="non_papal_solemn">0.005522</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__146504012.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.803974</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.803974</probability>
+        <probability class="papal_solemn">0.109240</probability>
+        <probability class="papal_simple">0.010047</probability>
+        <probability class="non_papal_solemn">0.076739</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14410721_W4-E4_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.812774</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.812774</probability>
+        <probability class="papal_solemn">0.050676</probability>
+        <probability class="papal_simple">0.086977</probability>
+        <probability class="non_papal_solemn">0.049574</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederltaich_14990813_02495_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.961436</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001010</probability>
+        <probability class="papal_solemn">0.961436</probability>
+        <probability class="papal_simple">0.014695</probability>
+        <probability class="non_papal_solemn">0.022859</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_210_353_13910508_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.978707</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000001</probability>
+        <probability class="papal_solemn">0.978707</probability>
+        <probability class="papal_simple">0.019803</probability>
+        <probability class="non_papal_solemn">0.001488</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13830517_00520_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.843469</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000379</probability>
+        <probability class="papal_solemn">0.843469</probability>
+        <probability class="papal_simple">0.155617</probability>
+        <probability class="non_papal_solemn">0.000536</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_210_222_13240407_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.961037</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001816</probability>
+        <probability class="papal_solemn">0.961037</probability>
+        <probability class="papal_simple">0.028727</probability>
+        <probability class="non_papal_solemn">0.008420</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_15000423_E3-B5-11-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.819266</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001210</probability>
+        <probability class="papal_solemn">0.819266</probability>
+        <probability class="papal_simple">0.064192</probability>
+        <probability class="non_papal_solemn">0.115332</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15941010_AXV-28_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.503483</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.019031</probability>
+        <probability class="papal_solemn">0.330484</probability>
+        <probability class="papal_simple">0.147002</probability>
+        <probability class="non_papal_solemn">0.503483</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000282-3_cad47ddc-9c07-44d0-8e7f-4c9efc6fd2e1_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.938398</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000041</probability>
+        <probability class="papal_solemn">0.938398</probability>
+        <probability class="papal_simple">0.061353</probability>
+        <probability class="non_papal_solemn">0.000209</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13531213_87_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.495417</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.006389</probability>
+        <probability class="papal_solemn">0.479359</probability>
+        <probability class="papal_simple">0.495417</probability>
+        <probability class="non_papal_solemn">0.018835</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_001854_f88468df-71c3-441e-b145-ab7e5e7e45ee_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.961117</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001592</probability>
+        <probability class="papal_solemn">0.961117</probability>
+        <probability class="papal_simple">0.021316</probability>
+        <probability class="non_papal_solemn">0.015975</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/SOAT-PremonstratiZeliv_14000707_0041_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994846</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000085</probability>
+        <probability class="papal_solemn">0.994846</probability>
+        <probability class="papal_simple">0.003681</probability>
+        <probability class="non_papal_solemn">0.001388</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_282_13170222_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.875700</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003945</probability>
+        <probability class="papal_solemn">0.875700</probability>
+        <probability class="papal_simple">0.118403</probability>
+        <probability class="non_papal_solemn">0.001952</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_14580924_00233_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.961499</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000011</probability>
+        <probability class="papal_solemn">0.961499</probability>
+        <probability class="papal_simple">0.035725</probability>
+        <probability class="non_papal_solemn">0.002765</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_286_14210310_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.991069</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000091</probability>
+        <probability class="papal_solemn">0.991069</probability>
+        <probability class="papal_simple">0.006735</probability>
+        <probability class="non_papal_solemn">0.002105</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14190327_B2-C7_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.716406</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.015821</probability>
+        <probability class="papal_solemn">0.132907</probability>
+        <probability class="papal_simple">0.134867</probability>
+        <probability class="non_papal_solemn">0.716406</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_164_286_14190624_01.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.553024</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.201765</probability>
+        <probability class="papal_solemn">0.186340</probability>
+        <probability class="papal_simple">0.553024</probability>
+        <probability class="non_papal_solemn">0.058872</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_E-UK_36-1_14490405_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.981067</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000118</probability>
+        <probability class="papal_solemn">0.981067</probability>
+        <probability class="papal_simple">0.014922</probability>
+        <probability class="non_papal_solemn">0.003893</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_100_13170608_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.915900</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000071</probability>
+        <probability class="papal_solemn">0.915900</probability>
+        <probability class="papal_simple">0.082510</probability>
+        <probability class="non_papal_solemn">0.001519</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_15070112_01242_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.947739</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.947739</probability>
+        <probability class="papal_solemn">0.017298</probability>
+        <probability class="papal_simple">0.016786</probability>
+        <probability class="non_papal_solemn">0.018176</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_315_14220427_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.954615</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000863</probability>
+        <probability class="papal_solemn">0.954615</probability>
+        <probability class="papal_simple">0.019532</probability>
+        <probability class="non_papal_solemn">0.024990</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000529-1_8961e738-eb65-413e-b0e8-5bb3e71c6b16_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.946645</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000185</probability>
+        <probability class="papal_solemn">0.946645</probability>
+        <probability class="papal_simple">0.052352</probability>
+        <probability class="non_papal_solemn">0.000818</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13780522_00355_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.839343</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.010715</probability>
+        <probability class="papal_solemn">0.140573</probability>
+        <probability class="papal_simple">0.839343</probability>
+        <probability class="non_papal_solemn">0.009368</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_320_14260711_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.644050</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001847</probability>
+        <probability class="papal_solemn">0.644050</probability>
+        <probability class="papal_simple">0.349114</probability>
+        <probability class="non_papal_solemn">0.004989</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__13170113.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.891477</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001101</probability>
+        <probability class="papal_solemn">0.891477</probability>
+        <probability class="papal_simple">0.049735</probability>
+        <probability class="non_papal_solemn">0.057687</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAAd_14981201_LL-12_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.993687</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000005</probability>
+        <probability class="papal_solemn">0.993687</probability>
+        <probability class="papal_simple">0.000223</probability>
+        <probability class="non_papal_solemn">0.006085</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14091204_0796_r-1.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.577383</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001517</probability>
+        <probability class="papal_solemn">0.415390</probability>
+        <probability class="papal_simple">0.577383</probability>
+        <probability class="non_papal_solemn">0.005710</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_153_13750515_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.610277</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000677</probability>
+        <probability class="papal_solemn">0.610277</probability>
+        <probability class="papal_simple">0.386197</probability>
+        <probability class="non_papal_solemn">0.002850</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1418_02_06.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994805</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000041</probability>
+        <probability class="papal_solemn">0.994805</probability>
+        <probability class="papal_simple">0.001101</probability>
+        <probability class="non_papal_solemn">0.004053</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MZA_E5_596_B2_15730801_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.746397</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000598</probability>
+        <probability class="papal_solemn">0.746397</probability>
+        <probability class="papal_simple">0.066569</probability>
+        <probability class="non_papal_solemn">0.186436</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14050707_208_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.971909</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001038</probability>
+        <probability class="papal_solemn">0.971909</probability>
+        <probability class="papal_simple">0.015348</probability>
+        <probability class="non_papal_solemn">0.011706</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_14210831_063_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.711266</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.711266</probability>
+        <probability class="papal_solemn">0.008088</probability>
+        <probability class="papal_simple">0.095413</probability>
+        <probability class="non_papal_solemn">0.185233</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14870925_00319_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.991263</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000024</probability>
+        <probability class="papal_solemn">0.991263</probability>
+        <probability class="papal_simple">0.001255</probability>
+        <probability class="non_papal_solemn">0.007459</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_14010311_00326_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.998129</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000032</probability>
+        <probability class="papal_solemn">0.998129</probability>
+        <probability class="papal_simple">0.000504</probability>
+        <probability class="non_papal_solemn">0.001335</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_E-UK_146_15941210_r2.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.937723</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000543</probability>
+        <probability class="papal_solemn">0.937723</probability>
+        <probability class="papal_simple">0.038792</probability>
+        <probability class="non_papal_solemn">0.022941</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_14040108_00439_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.998364</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000002</probability>
+        <probability class="papal_solemn">0.998364</probability>
+        <probability class="papal_simple">0.001524</probability>
+        <probability class="non_papal_solemn">0.000110</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14870925_00321_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.980062</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000213</probability>
+        <probability class="papal_solemn">0.980062</probability>
+        <probability class="papal_simple">0.017815</probability>
+        <probability class="non_papal_solemn">0.001909</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14130412_E5-B7-601-r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.959973</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002738</probability>
+        <probability class="papal_solemn">0.959973</probability>
+        <probability class="papal_simple">0.008758</probability>
+        <probability class="non_papal_solemn">0.028531</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~Gerasjpgweb._~StAG__1395.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.436699</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.008347</probability>
+        <probability class="papal_solemn">0.436699</probability>
+        <probability class="papal_simple">0.223401</probability>
+        <probability class="non_papal_solemn">0.331553</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13350213_84_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.585326</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000985</probability>
+        <probability class="papal_solemn">0.410896</probability>
+        <probability class="papal_simple">0.585326</probability>
+        <probability class="non_papal_solemn">0.002793</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_13850404_00290_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.776215</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.776215</probability>
+        <probability class="papal_solemn">0.001241</probability>
+        <probability class="papal_simple">0.035951</probability>
+        <probability class="non_papal_solemn">0.186594</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002499_a2080cd6-6763-479d-b661-b00c0a66b0f7_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.554371</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.018488</probability>
+        <probability class="papal_solemn">0.554371</probability>
+        <probability class="papal_simple">0.401390</probability>
+        <probability class="non_papal_solemn">0.025751</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_13080902_00116_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.979612</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001472</probability>
+        <probability class="papal_solemn">0.979612</probability>
+        <probability class="papal_simple">0.008347</probability>
+        <probability class="non_papal_solemn">0.010569</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14270604_223_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.603761</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003944</probability>
+        <probability class="papal_solemn">0.389457</probability>
+        <probability class="papal_simple">0.603761</probability>
+        <probability class="non_papal_solemn">0.002838</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14780322_AXI-41_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.939965</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000905</probability>
+        <probability class="papal_solemn">0.939965</probability>
+        <probability class="papal_simple">0.018837</probability>
+        <probability class="non_papal_solemn">0.040293</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederltaich_15010215_02497_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.972366</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000048</probability>
+        <probability class="papal_solemn">0.972366</probability>
+        <probability class="papal_simple">0.025383</probability>
+        <probability class="non_papal_solemn">0.002203</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_14730422_00253_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.951975</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000024</probability>
+        <probability class="papal_solemn">0.951975</probability>
+        <probability class="papal_simple">0.047507</probability>
+        <probability class="non_papal_solemn">0.000495</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_401_14850108_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.589970</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.005780</probability>
+        <probability class="papal_solemn">0.374430</probability>
+        <probability class="papal_simple">0.589970</probability>
+        <probability class="non_papal_solemn">0.029820</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_15000523_E43-P13-r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.981996</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000014</probability>
+        <probability class="papal_solemn">0.981996</probability>
+        <probability class="papal_simple">0.004617</probability>
+        <probability class="non_papal_solemn">0.013373</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13920612_164_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.904948</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000032</probability>
+        <probability class="papal_solemn">0.904948</probability>
+        <probability class="papal_simple">0.093398</probability>
+        <probability class="non_papal_solemn">0.001622</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_15011111_1736_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.833806</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000155</probability>
+        <probability class="papal_solemn">0.833806</probability>
+        <probability class="papal_simple">0.164485</probability>
+        <probability class="non_papal_solemn">0.001555</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUFuerstenzell_14720511_00675_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.466964</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.004388</probability>
+        <probability class="papal_solemn">0.466964</probability>
+        <probability class="papal_simple">0.405186</probability>
+        <probability class="non_papal_solemn">0.123462</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_274_14020808_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.980270</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000156</probability>
+        <probability class="papal_solemn">0.980270</probability>
+        <probability class="papal_simple">0.015566</probability>
+        <probability class="non_papal_solemn">0.004008</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUMuenchen-Angerkloster_14010311_00325_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.957804</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000333</probability>
+        <probability class="papal_solemn">0.957804</probability>
+        <probability class="papal_simple">0.000254</probability>
+        <probability class="non_papal_solemn">0.041609</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_15121202_AXII-38_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.429141</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001228</probability>
+        <probability class="papal_solemn">0.413641</probability>
+        <probability class="papal_simple">0.429141</probability>
+        <probability class="non_papal_solemn">0.155989</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_15070114_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.696631</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000047</probability>
+        <probability class="papal_solemn">0.696631</probability>
+        <probability class="papal_simple">0.300105</probability>
+        <probability class="non_papal_solemn">0.003218</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14870924_00318_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.995713</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000008</probability>
+        <probability class="papal_solemn">0.995713</probability>
+        <probability class="papal_simple">0.000719</probability>
+        <probability class="non_papal_solemn">0.003561</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/SOAT-PremonstratiZeliv_13720315_0032_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.973975</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000075</probability>
+        <probability class="papal_solemn">0.973975</probability>
+        <probability class="papal_simple">0.025705</probability>
+        <probability class="non_papal_solemn">0.000245</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000775_8e0bc8b9-7e70-4b04-90e0-9bb643a250db_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.592266</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.003505</probability>
+        <probability class="papal_solemn">0.592266</probability>
+        <probability class="papal_simple">0.382430</probability>
+        <probability class="non_papal_solemn">0.021799</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_14210430_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.860772</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000998</probability>
+        <probability class="papal_solemn">0.131771</probability>
+        <probability class="papal_simple">0.860772</probability>
+        <probability class="non_papal_solemn">0.006459</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13750330_00488_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.672700</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.015111</probability>
+        <probability class="papal_solemn">0.217991</probability>
+        <probability class="papal_simple">0.094198</probability>
+        <probability class="non_papal_solemn">0.672700</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_15050305_00227_01.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.661460</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.275278</probability>
+        <probability class="papal_solemn">0.033459</probability>
+        <probability class="papal_simple">0.029803</probability>
+        <probability class="non_papal_solemn">0.661460</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_13501126_055_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.382605</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.089194</probability>
+        <probability class="papal_solemn">0.221309</probability>
+        <probability class="papal_simple">0.306892</probability>
+        <probability class="non_papal_solemn">0.382605</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13420613_96_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.832222</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000158</probability>
+        <probability class="papal_solemn">0.167277</probability>
+        <probability class="papal_simple">0.832222</probability>
+        <probability class="non_papal_solemn">0.000343</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000298-2_4b997e63-247f-4514-9e50-8053fc24090b_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.885581</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.019336</probability>
+        <probability class="papal_solemn">0.885581</probability>
+        <probability class="papal_simple">0.093854</probability>
+        <probability class="non_papal_solemn">0.001229</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_14290422_0942_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.977512</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000004</probability>
+        <probability class="papal_solemn">0.977512</probability>
+        <probability class="papal_simple">0.019711</probability>
+        <probability class="non_papal_solemn">0.002773</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14190331_A4-B23_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.937236</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000641</probability>
+        <probability class="papal_solemn">0.937236</probability>
+        <probability class="papal_simple">0.007481</probability>
+        <probability class="non_papal_solemn">0.054642</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAldersbach_13171002_00224_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.809987</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001930</probability>
+        <probability class="papal_solemn">0.187182</probability>
+        <probability class="papal_simple">0.809987</probability>
+        <probability class="non_papal_solemn">0.000901</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/SOAT-PremonstratiZeliv_13720315_0030_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.992351</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000430</probability>
+        <probability class="papal_solemn">0.992351</probability>
+        <probability class="papal_simple">0.006258</probability>
+        <probability class="non_papal_solemn">0.000960</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_15031121_1761_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.946227</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000338</probability>
+        <probability class="papal_solemn">0.946227</probability>
+        <probability class="papal_simple">0.050056</probability>
+        <probability class="non_papal_solemn">0.003378</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13960617_178_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.991557</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000062</probability>
+        <probability class="papal_solemn">0.991557</probability>
+        <probability class="papal_simple">0.006894</probability>
+        <probability class="non_papal_solemn">0.001486</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13630202_121_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.829708</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001916</probability>
+        <probability class="papal_solemn">0.829708</probability>
+        <probability class="papal_simple">0.152334</probability>
+        <probability class="non_papal_solemn">0.016042</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14010922_196_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.994271</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000013</probability>
+        <probability class="papal_solemn">0.994271</probability>
+        <probability class="papal_simple">0.004991</probability>
+        <probability class="non_papal_solemn">0.000725</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUPassau-Niedernburg_15000206_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.954218</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000083</probability>
+        <probability class="papal_solemn">0.954218</probability>
+        <probability class="papal_simple">0.020840</probability>
+        <probability class="non_papal_solemn">0.024858</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13410111_91_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.884320</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.041953</probability>
+        <probability class="papal_solemn">0.057180</probability>
+        <probability class="papal_simple">0.884320</probability>
+        <probability class="non_papal_solemn">0.016547</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_002320_cb1165bf-b7bd-4705-a36a-1f59de548220_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.995131</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000091</probability>
+        <probability class="papal_solemn">0.995131</probability>
+        <probability class="papal_simple">0.004090</probability>
+        <probability class="non_papal_solemn">0.000688</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_12300730_062_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.963209</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.008265</probability>
+        <probability class="papal_solemn">0.023067</probability>
+        <probability class="papal_simple">0.963209</probability>
+        <probability class="non_papal_solemn">0.005459</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNeuburg-Donau_14741231_00261_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.960753</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000035</probability>
+        <probability class="papal_solemn">0.960753</probability>
+        <probability class="papal_simple">0.036643</probability>
+        <probability class="non_papal_solemn">0.002569</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_14610926_00102_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.522558</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000020</probability>
+        <probability class="papal_solemn">0.522558</probability>
+        <probability class="papal_simple">0.406802</probability>
+        <probability class="non_papal_solemn">0.070620</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiARein_14530518_AX-40_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.999324</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000001</probability>
+        <probability class="papal_solemn">0.999324</probability>
+        <probability class="papal_simple">0.000498</probability>
+        <probability class="non_papal_solemn">0.000176</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiASG_14070113_O4-A3_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.818880</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001951</probability>
+        <probability class="papal_solemn">0.818880</probability>
+        <probability class="papal_simple">0.167814</probability>
+        <probability class="non_papal_solemn">0.011356</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/AT_MinWien_13731008_056_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.515090</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.026047</probability>
+        <probability class="papal_solemn">0.515090</probability>
+        <probability class="papal_simple">0.109877</probability>
+        <probability class="non_papal_solemn">0.348986</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_128_750_14210313_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.813677</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000638</probability>
+        <probability class="papal_solemn">0.813677</probability>
+        <probability class="papal_simple">0.098958</probability>
+        <probability class="non_papal_solemn">0.086727</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_UK_477_15240613_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.890229</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.009675</probability>
+        <probability class="papal_solemn">0.890229</probability>
+        <probability class="papal_simple">0.085632</probability>
+        <probability class="non_papal_solemn">0.014464</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUNiederltaich_14080220_02466_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.945454</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000485</probability>
+        <probability class="papal_solemn">0.945454</probability>
+        <probability class="papal_simple">0.052486</probability>
+        <probability class="non_papal_solemn">0.001575</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/MAZB_14230408_E43-P11-r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.550445</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.257821</probability>
+        <probability class="papal_solemn">0.176042</probability>
+        <probability class="papal_simple">0.550445</probability>
+        <probability class="non_papal_solemn">0.015692</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_15130116_00271_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.457866</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.457866</probability>
+        <probability class="papal_solemn">0.282335</probability>
+        <probability class="papal_simple">0.235960</probability>
+        <probability class="non_papal_solemn">0.023839</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/LHAKo_164_130b_16230110_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.956067</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.956067</probability>
+        <probability class="papal_solemn">0.005663</probability>
+        <probability class="papal_simple">0.005783</probability>
+        <probability class="non_papal_solemn">0.032487</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAltomuenster_15200210_00299_r.jpg</image>
+      <prediction>non_papal_solemn</prediction>
+      <confidence>0.762892</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.007285</probability>
+        <probability class="papal_solemn">0.012008</probability>
+        <probability class="papal_simple">0.217815</probability>
+        <probability class="non_papal_solemn">0.762892</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUPassau-Niedernburg_14900703_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.846177</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002912</probability>
+        <probability class="papal_solemn">0.846177</probability>
+        <probability class="papal_simple">0.045636</probability>
+        <probability class="non_papal_solemn">0.105275</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/ASP_15791113_3155-b_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.591191</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.018322</probability>
+        <probability class="papal_solemn">0.591191</probability>
+        <probability class="papal_simple">0.191678</probability>
+        <probability class="non_papal_solemn">0.198809</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_13071014_00132_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.844942</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000353</probability>
+        <probability class="papal_solemn">0.844942</probability>
+        <probability class="papal_simple">0.152217</probability>
+        <probability class="non_papal_solemn">0.002489</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StiAWilten_087-B-05_14210903_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.953713</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000063</probability>
+        <probability class="papal_solemn">0.953713</probability>
+        <probability class="papal_simple">0.031443</probability>
+        <probability class="non_papal_solemn">0.014781</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_13620517_120_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.767387</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001386</probability>
+        <probability class="papal_solemn">0.767387</probability>
+        <probability class="papal_simple">0.225377</probability>
+        <probability class="non_papal_solemn">0.005851</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/NA-RBB_14050522_205_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.931076</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.014010</probability>
+        <probability class="papal_solemn">0.931076</probability>
+        <probability class="papal_simple">0.043944</probability>
+        <probability class="non_papal_solemn">0.010970</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/K.._MOM-Bilddateien._~HHStAmasters._~HHStAUrkundenweb._~Kloester._~oesterreich._~Niederoesterreich._~WienerNeustadtPaulinerkloster._~Provinzialat._~HHSTA_Paul_1418_05_21.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.990844</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000010</probability>
+        <probability class="papal_solemn">0.990844</probability>
+        <probability class="papal_simple">0.000823</probability>
+        <probability class="non_papal_solemn">0.008322</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/StAStP_B-UK_420_15070730_r.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.977792</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.001713</probability>
+        <probability class="papal_solemn">0.977792</probability>
+        <probability class="papal_simple">0.011913</probability>
+        <probability class="non_papal_solemn">0.008582</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUAsbach_14871021_00325_r.jpg</image>
+      <prediction>non_papal_simple</prediction>
+      <confidence>0.846032</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.846032</probability>
+        <probability class="papal_solemn">0.001887</probability>
+        <probability class="papal_simple">0.042131</probability>
+        <probability class="non_papal_solemn">0.109949</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/bayhsta-kuniederaltaich_14141223_00582_r-1.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.967202</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.000156</probability>
+        <probability class="papal_solemn">0.967202</probability>
+        <probability class="papal_simple">0.005248</probability>
+        <probability class="non_papal_solemn">0.027394</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/de_bayhsta_kloster-st-emmeram-regensburg-urk_000288_0202a394-e985-4e58-8e3a-2cdfaae38ade_0001.jpg</image>
+      <prediction>papal_solemn</prediction>
+      <confidence>0.534329</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.002106</probability>
+        <probability class="papal_solemn">0.534329</probability>
+        <probability class="papal_simple">0.462165</probability>
+        <probability class="non_papal_solemn">0.001400</probability>
+      </probabilities>
+    </charter>
+    <charter>
+      <image>test_against_klosterbestaende/starts_with_papal_writable_area/BayHStA-KUVilshofen_13760101_r.jpg</image>
+      <prediction>papal_simple</prediction>
+      <confidence>0.447593</confidence>
+      <probabilities>
+        <probability class="non_papal_simple">0.023836</probability>
+        <probability class="papal_solemn">0.316033</probability>
+        <probability class="papal_simple">0.447593</probability>
+        <probability class="non_papal_solemn">0.212538</probability>
+      </probabilities>
+    </charter>
+  </charters>
+</charter_classifications>

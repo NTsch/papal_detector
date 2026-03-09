@@ -10,13 +10,15 @@ from tqdm import tqdm
 import threading
 
 # ===== CONFIG =====
-INPUT_FILE = "new_papal_imgs.txt"
+INPUT_FILE = "image_urls.txt"
 OUTPUT_DIR = "downloaded_images"
 FAILED_FILE = "failed_downloads.txt"
 MAX_WORKERS = 32
 TIMEOUT = 15
 RETRY_FAILED_PASS = True
 MAX_IMAGES = None   # Set to None to download all
+START_INDEX = 50000       # inclusive
+END_INDEX = None     # exclusive, set to None for no limit
 # ==================
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -95,6 +97,14 @@ def run_download(urls, pass_name="Main pass"):
 # Load URLs
 with open(INPUT_FILE, "r") as f:
     urls = [line.strip() for line in f if line.strip()]
+
+total_urls = len(urls)
+
+# Apply range selection
+urls = urls[START_INDEX:END_INDEX]
+
+print(f"Total URLs in file: {total_urls}")
+print(f"Downloading URLs {START_INDEX} to {START_INDEX + len(urls)} ({len(urls)} images)")
 
 # Apply optional limit
 if MAX_IMAGES is not None:
